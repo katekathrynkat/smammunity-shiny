@@ -1,0 +1,1467 @@
+site,severity,date,day,trap,trap.type,indID,species,binomial,binomial_short,family,age,sex,breed,recap,weight,body.lgth,tail.lgth,comments,catnum
+GRNCAR,unb,2017-09-05,1,F4,L,830,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,83,59,NA,NA
+GRNCAR,unb,2017-09-05,1,B8,L,827,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,16,75,73,NA,NA
+GRNCAR,unb,2017-09-06,2,E9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNCAR,unb,2017-09-06,2,J9,S,302,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,21,79,72,NA,NA
+GRNCAR,unb,2017-09-06,2,G8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNCAR,unb,2017-09-06,2,D5,S,761,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,67,NA,NA
+GRNCAR,unb,2017-09-06,2,B2,L,KING-008,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,NA,NA,NA,NA,KING-008
+GRNCAR,unb,2017-09-06,2,G2,S,830,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,67,57,NA,NA
+GRNCAR,unb,2017-09-06,2,F3,S,827,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,16,74,68,NA,NA
+GRNCAR,unb,2017-09-06,2,F4,L,759,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,74,67,NA,NA
+GRNCAR,unb,2017-09-07,3,J9,S,842,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,76,71,NA,NA
+GRNCAR,unb,2017-09-07,3,J3,S,761,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,77,69,NA,NA
+GRNCAR,unb,2017-09-07,3,J6,L,830,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,77,57,NA,NA
+GRNCAR,unb,2017-09-07,3,B2,L,850,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,83,65,NA,NA
+GRNCAR,unb,2017-09-07,3,J1,S,759,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,75,75,NA,NA
+GRNDAM,unb,2017-08-29,1,A4,S,CLIP-1,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,NA,56,NA,NA
+GRNDAM,unb,2017-08-29,1,A6,S,CLIP-2,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,NA,50,appeared to be in shock after release; but recovered quickly,NA
+GRNDAM,unb,2017-08-29,1,A7,L,987,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,81,75,NA,NA
+GRNDAM,unb,2017-08-29,1,A10,S,995,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,80,70,NA,NA
+GRNDAM,unb,2017-08-29,1,B10,L,963,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,82,75,bald patch behind right rear leg,NA
+GRNDAM,unb,2017-08-29,1,B1,S,990,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,77,70,NA,NA
+GRNDAM,unb,2017-08-29,1,C1,L,973,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,76,62,NA,NA
+GRNDAM,unb,2017-08-29,1,D10,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,hole in trap; animal probably escaped,NA
+GRNDAM,unb,2017-08-29,1,E1,L,965,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,12,75,73,possibly REME,NA
+GRNDAM,unb,2017-08-29,1,E8,S,893,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,77,72,NA,NA
+GRNDAM,unb,2017-08-29,1,G10,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,crooked trap; door partially closed; animal probably escaped,NA
+GRNDAM,unb,2017-08-29,1,I1,L,183,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,80,74,slightly scrotal,NA
+GRNDAM,unb,2017-08-29,1,I2,S,886,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,76,68,NA,NA
+GRNDAM,unb,2017-08-29,1,I5,L,897,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,13,71,58,NA,NA
+GRNDAM,unb,2017-08-30,2,B9,S,995,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,76,71,NA,NA
+GRNDAM,unb,2017-08-30,2,B7,S,987,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,82,73,NA,NA
+GRNDAM,unb,2017-08-30,2,B5,S,990,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,77,72,NA,NA
+GRNDAM,unb,2017-08-30,2,C1,L,965,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,13,73,71,NA,NA
+GRNDAM,unb,2017-08-30,2,C7,L,974,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,16,78,70,NA,NA
+GRNDAM,unb,2017-08-30,2,C9,L,963,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,83,71,bald patch,NA
+GRNDAM,unb,2017-08-30,2,E1,L,183,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,76,73,NA,NA
+GRNDAM,unb,2017-08-30,2,E5,L,886,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,75,69,slightly scrotal,NA
+GRNDAM,unb,2017-08-30,2,I4,S,897,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,12,72,59,NA,NA
+GRNDAM,unb,2017-08-30,2,G9,L,893,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,80,74,NA,NA
+GRNDAM,unb,2017-08-30,2,G2,S,838,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,14,72,66,NA,NA
+GRNDAM,unb,2017-08-30,2,F2,L,973,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,74,62,tiny testes,NA
+GRNDAM,unb,2017-08-30,2,F7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNDAM,unb,2017-08-30,2,F9,S,839,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,82,68,NA,NA
+GRNDAM,unb,2017-08-31,3,A1,L,CLIP-3,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,4,NA,48,NA,NA
+GRNDAM,unb,2017-08-31,3,A3,L,991,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,S,M,N,N,155,NA,NA,NA,NA
+GRNDAM,unb,2017-08-31,3,A4,S,NA,SPRU,NA,NA,NA,A,NA,NA,Y,NA,NA,53,dead in trap,KING-171
+GRNDAM,unb,2017-08-31,3,A6,S,987,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,81,75,NA,NA
+GRNDAM,unb,2017-08-31,3,A10,S,995,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,80,71,NA,NA
+GRNDAM,unb,2017-08-31,3,B10,L,963,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,80,74,bald patch,NA
+GRNDAM,unb,2017-08-31,3,C1,L,990,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,79,72,NA,NA
+GRNDAM,unb,2017-08-31,3,G10,S,839,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,76,67,NA,NA
+GRNDAM,unb,2017-08-31,3,E3,L,965,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,12,80,72,NA,NA
+GRNDAM,unb,2017-08-31,3,E8,S,893,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,79,72,NA,NA
+GRNDAM,unb,2017-08-31,3,F9,S,886,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,83,66,NA,NA
+GRNDAM,unb,2017-08-31,3,I1,L,838,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,74,66,NA,NA
+GRNDAM,unb,2017-08-31,3,G1,L,183,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,84,73,NA,NA
+GRNHOU,unb,2017-07-25,1,J6,L,CLIP-4,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,M,T,N,5.5,55,45,NA,NA
+GRNHOU,unb,2017-07-25,1,H6,L,103,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,64,58,aggressive,NA
+GRNHOU,unb,2017-07-25,1,G10,S,116,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,NA,NA,escaped after ear tag,NA
+GRNHOU,unb,2017-07-25,1,G6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNHOU,unb,2017-07-25,1,G3,L,117,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,11,70,69,NA,NA
+GRNHOU,unb,2017-07-25,1,G1,L,124,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,58,60,NA,NA
+GRNHOU,unb,2017-07-25,1,F2,L,CLIP-5,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,NA,49,NA,NA
+GRNHOU,unb,2017-07-25,1,F9,S,402,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,10,62,59,very small,NA
+GRNHOU,unb,2017-07-25,1,A2,L,193,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,15,80,58,NA,NA
+GRNHOU,unb,2017-07-25,1,A4,L,177,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,N,83,NA,NA,NA,NA
+GRNHOU,unb,2017-07-25,1,A5,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,not flagged<U+0085>entire station missing,NA
+GRNHOU,unb,2017-07-25,1,A9,L,004,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,N,99,NA,NA,NA,NA
+GRNHOU,unb,2017-07-25,1,B5,L,045,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,14,70,59,NA,NA
+GRNHOU,unb,2017-07-25,1,B9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNHOU,unb,2017-07-25,1,C2,L,180,GLSA,Glaucomys sabrinus,G. sabrinus,Sciuridae,A,M,T,N,116,NA,NA,NA,NA
+GRNHOU,unb,2017-07-25,1,C3,S,KING-073,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,NA,NA,48,dead,KING-073
+GRNHOU,unb,2017-07-25,1,D10,L,010,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,13,69,65,NA,NA
+GRNHOU,unb,2017-07-25,1,E3,L,025,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,12,67,60,NA,NA
+GRNHOU,unb,2017-07-25,1,E5,L,042,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,17,85,77,NA,NA
+GRNHOU,unb,2017-07-26,2,A1,S,045,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,13,66,56,NA,NA
+GRNHOU,unb,2017-07-26,2,A3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNHOU,unb,2017-07-26,2,A4,L,177,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,Y,86,NA,NA,NA,NA
+GRNHOU,unb,2017-07-26,2,A9,L,004,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,Y,90,NA,NA,NA,NA
+GRNHOU,unb,2017-07-26,2,B3,L,193,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,82,58,slightly scrotal,NA
+GRNHOU,unb,2017-07-26,2,C6,L,042,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,17,82,74,squeaky,NA
+GRNHOU,unb,2017-07-26,2,D2,S,025,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,13,63,59,NA,NA
+GRNHOU,unb,2017-07-26,2,I4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,N,NA,NA,NA,escaped,NA
+GRNHOU,unb,2017-07-26,2,H7,S,104,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,14,63,69,NA,NA
+GRNHOU,unb,2017-07-26,2,G8,S,406,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,62,67,NA,NA
+GRNHOU,unb,2017-07-26,2,G1,L,NA,SPRU,NA,NA,NA,A,M,NA,Y,5,NA,49,stinky,NA
+GRNHOU,unb,2017-07-27,3,J6,L,CLIP-6,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,NA,48,shrew,NA
+GRNHOU,unb,2017-07-27,3,J9,S,114,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,P,N,17,NA,NA,gray with yellow flanks; escaped,NA
+GRNHOU,unb,2017-07-27,3,I2,S,117,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,12,NA,NA,escaped,NA
+GRNHOU,unb,2017-07-27,3,H4,L,DAY3-1,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,NA,NA,NA,N,NA,NA,NA,escaped,NA
+GRNHOU,unb,2017-07-27,3,H8,L,421,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,64,58,NA,NA
+GRNHOU,unb,2017-07-27,3,G1,L,193,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,NA,NA,yellow flanks,NA
+GRNHOU,unb,2017-07-27,3,A1,S,025,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,13,70,60,very small,NA
+GRNHOU,unb,2017-07-27,3,A2,L,185,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,N,N,27,91,99,hind foot = 20mm; ear = 18mm; hairy tail,NA
+GRNHOU,unb,2017-07-27,3,A3,S,177,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,Y,84,NA,NA,NA,NA
+GRNHOU,unb,2017-07-27,3,A8,S,DAY3-2,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,6,NA,50,NA,NA
+GRNHOU,unb,2017-07-27,3,A9,L,004,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,Y,90,NA,NA,NA,NA
+GRNHOU,unb,2017-07-27,3,D4,S,180,GLSA,Glaucomys sabrinus,G. sabrinus,Sciuridae,A,M,T,Y,98,NA,NA,NA,NA
+GRNHOU,unb,2017-07-27,3,C8,L,402,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,11,67,60,NA,NA
+GRNHOU,unb,2017-07-27,3,E5,L,045,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,12,72,57,NA,NA
+GRNHOU,unb,2017-07-27,3,D6,S,042,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,16,83,74,NA,NA
+GRNKAN,unb,2017-08-01,1,A4,L,123,REME,Reithrodontomys megalotis,R. megalotis,Cricetidae,A,M,T,N,19,NA,NA,all brown,NA
+GRNKAN,unb,2017-08-01,1,A8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-01,1,C10,L,KING-095,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,NA,NA,51,dead,KING-095
+GRNKAN,unb,2017-08-01,1,E9,S,KING-049,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,77,73,dead,KING-049
+GRNKAN,unb,2017-08-01,1,F9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-01,1,I4,L,377,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,N,N,19,89,94,NA,NA
+GRNKAN,unb,2017-08-01,1,J10,S,488,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,82,63,NA,NA
+GRNKAN,unb,2017-08-01,1,H10,S,284,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,68,70,NA,NA
+GRNKAN,unb,2017-08-01,1,J8,S,497,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,N,N,19,82,95,NA,NA
+GRNKAN,unb,2017-08-01,1,J9,L,333,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,24,88,101,died during processing,KING-052
+GRNKAN,unb,2017-08-02,2,I3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-02,2,H10,L,488,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,80,65,NA,NA
+GRNKAN,unb,2017-08-02,2,E1,S,424,REME,Reithrodontomys megalotis,R. megalotis,Cricetidae,A,M,T,N,21,79,67,NA,NA
+GRNKAN,unb,2017-08-02,2,E2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-02,2,E6,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-02,2,C10,L,410,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,11,60,63,NA,NA
+GRNKAN,unb,2017-08-02,2,J1,L,377,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,N,Y,19,62,95,NA,NA
+GRNKAN,unb,2017-08-02,2,J8,S,497,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,N,Y,19,75,95,dead,KING-031
+GRNKAN,unb,2017-08-02,2,F5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-03,3,C2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNKAN,unb,2017-08-03,3,C10,L,496,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,70,65,NA,NA
+GRNKAN,unb,2017-08-03,3,E1,S,492,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,18,87,96,NA,NA
+GRNKAN,unb,2017-08-03,3,F1,L,292,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,73,67,NA,NA
+GRNKAN,unb,2017-08-03,3,F9,L,393,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,66,NA,NA
+GRNKAN,unb,2017-08-03,3,I4,L,377,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,N,Y,18,72,83,NA,NA
+GRNKAN,unb,2017-08-03,3,H7,L,405,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,16,71,80,NA,NA
+GRNKAN,unb,2017-08-03,3,H10,S,488,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,65,70,PEBO or REME,NA
+GRNMAS,unb,2017-08-15,1,A6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,rolled over,NA
+GRNMAS,unb,2017-08-15,1,B10,S,673,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,75,71,NA,NA
+GRNMAS,unb,2017-08-15,1,B2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tipped on side,NA
+GRNMAS,unb,2017-08-15,1,D9,S,280,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,15,76,58,NA,NA
+GRNMAS,unb,2017-08-15,1,D8,L,657,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,13,63,57,NA,NA
+GRNMAS,unb,2017-08-15,1,D6,S,KING-101,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,F,NA,N,NA,47,47,dead,KING-101
+GRNMAS,unb,2017-08-15,1,D5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,missing bait; no other signs of intrusion,NA
+GRNMAS,unb,2017-08-15,1,E1,S,662,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,14,80,58,NA,NA
+GRNMAS,unb,2017-08-15,1,F8,S,652,GLSA,Glaucomys sabrinus,G. sabrinus,Sciuridae,A,F,N,N,131,NA,NA,NA,NA
+GRNMAS,unb,2017-08-15,1,F5,L,664,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,84,79,NA,NA
+GRNMAS,unb,2017-08-15,1,J2,S,803,PEBO,Peromyscus boylii,P. boylii,Cricetidae,S,M,N,N,18,79,87,very grey,NA
+GRNMAS,unb,2017-08-15,1,J3,L,753,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,16,78,69,NA,NA
+GRNMAS,unb,2017-08-15,1,J4,S,810,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,N,363,NA,NA,NA,NA
+GRNMAS,unb,2017-08-15,1,J10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-15,1,I5,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-15,1,I3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-15,1,H10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,possibly because of beetle,NA
+GRNMAS,unb,2017-08-15,1,G5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,possibly because of beetle,NA
+GRNMAS,unb,2017-08-15,1,G3,S,752,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,83,68,NA,NA
+GRNMAS,unb,2017-08-16,2,A10,L,826,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,74,67,NA,NA
+GRNMAS,unb,2017-08-16,2,D6,S,657,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,14,75,60,NA,NA
+GRNMAS,unb,2017-08-16,2,E10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-16,2,F5,L,664,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,81,79,NA,NA
+GRNMAS,unb,2017-08-16,2,F8,S,KING-067,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,S,M,NA,N,NA,NA,NA,NA,KING-067
+GRNMAS,unb,2017-08-16,2,J2,S,662,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,16,80,60,NA,NA
+GRNMAS,unb,2017-08-16,2,J3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+GRNMAS,unb,2017-08-16,2,J6,S,753,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,15,82,71,NA,NA
+GRNMAS,unb,2017-08-16,2,I8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-16,2,I5,S,847,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,18,84,64,NA,NA
+GRNMAS,unb,2017-08-16,2,I3,S,803,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,Y,17,83,91,NA,NA
+GRNMAS,unb,2017-08-16,2,I1,S,705,PETR,Peromyscus truei,P. truei,Cricetidae,A,F,P,N,23,100,97,NA,NA
+GRNMAS,unb,2017-08-16,2,H7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-16,2,H9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-16,2,H10,S,845,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,14,75,64,NA,NA
+GRNMAS,unb,2017-08-16,2,G5,S,280,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,17,77,64,NA,NA
+GRNMAS,unb,2017-08-16,2,G3,S,752,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,77,69,NA,NA
+GRNMAS,unb,2017-08-16,2,B5,L,673,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,85,76,NA,NA
+GRNMAS,unb,2017-08-17,3,C10,L,KING-096,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,M,NA,N,6,NA,NA,died; possibly testicular (stinky),KING-096
+GRNMAS,unb,2017-08-17,3,F8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNMAS,unb,2017-08-17,3,I2,L,752,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,76,71,NA,NA
+GRNMAS,unb,2017-08-17,3,H2,S,753,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,17,82,71,NA,NA
+GRNMAS,unb,2017-08-17,3,G5,S,829,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,10,73,56,NA,NA
+GRNMAS,unb,2017-08-17,3,F5,L,280,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,17,80,63,NA,NA
+GRNMAS,unb,2017-08-17,3,E3,S,662,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,15,75,55,very still,NA
+GRNMAS,unb,2017-08-17,3,J1,L,KING-076,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,NA,NA,NA,kind of smelly,KING-076
+GRNMAS,unb,2017-08-17,3,B8,L,657,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,15,73,58,NA,NA
+GRNMAS,unb,2017-08-17,3,B4,S,673,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,83,70,NA,NA
+GRNMAS,unb,2017-08-17,3,D8,L,803,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,Y,16,80,90,NA,NA
+GRNMAS,unb,2017-08-17,3,F10,S,755,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,13,74,67,NA,NA
+GRNMAS,unb,2017-08-17,3,E2,L,664,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,85,75,NA,NA
+GRNQUA,unb,2017-08-08,1,J1,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Trap half open; replaced,NA
+GRNQUA,unb,2017-08-08,1,J8,S,448,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,72,63,2 small holes in left ear; very large ears,NA
+GRNQUA,unb,2017-08-08,1,J10,S,169,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,78,79,NA,NA
+GRNQUA,unb,2017-08-08,1,I3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle stuck open,NA
+GRNQUA,unb,2017-08-08,1,H3,L,317,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,27,81,72,NA,NA
+GRNQUA,unb,2017-08-08,1,G1,S,243,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,80,62,NA,NA
+GRNQUA,unb,2017-08-08,1,D4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-08,1,D8,S,378,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,70,60,NA,NA
+GRNQUA,unb,2017-08-08,1,F5,L,289,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,21,70,65,NA,NA
+GRNQUA,unb,2017-08-08,1,G9,S,282,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,65,60,NA,NA
+GRNQUA,unb,2017-08-08,1,A5,S,086,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,17,67,57,NA,NA
+GRNQUA,unb,2017-08-08,1,C1,S,339,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,64,66,NA,NA
+GRNQUA,unb,2017-08-08,1,C3,S,211,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,15,58,60,NA,NA
+GRNQUA,unb,2017-08-08,1,C9,S,KING-034,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,NA,NA,NA,N,NA,NA,NA,dead,KING-034
+GRNQUA,unb,2017-08-08,1,G10,L,080,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,26,68,65,NA,NA
+GRNQUA,unb,2017-08-08,1,G3,S,214,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,27,69,64,NA,NA
+GRNQUA,unb,2017-08-09,2,A1,S,339,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,22,71,64,NA,NA
+GRNQUA,unb,2017-08-09,2,A7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-09,2,B1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-09,2,C5,S,086,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,72,56,NA,NA
+GRNQUA,unb,2017-08-09,2,C9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-09,2,D8,S,282,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,73,64,NA,NA
+GRNQUA,unb,2017-08-09,2,D3,L,211,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,8,72,55,NA,NA
+GRNQUA,unb,2017-08-09,2,E10,L,KING-014,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,F,N,N,NA,NA,NA,dead,KING-014
+GRNQUA,unb,2017-08-09,2,F4,S,317,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,89,79,NA,NA
+GRNQUA,unb,2017-08-09,2,J1,L,214,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,23,65,60,NA,NA
+GRNQUA,unb,2017-08-09,2,J9,L,448,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,NA,NA,escaped,NA
+GRNQUA,unb,2017-08-09,2,I1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-09,2,H6,S,378,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,65,61,NA,NA
+GRNQUA,unb,2017-08-09,2,G10,L,080,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,21,70,60,NA,NA
+GRNQUA,unb,2017-08-09,2,G8,L,289,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,68,65,NA,NA
+GRNQUA,unb,2017-08-09,2,G1,S,243,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,66,61,NA,NA
+GRNQUA,unb,2017-08-10,3,A4,L,238,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,81,60,NA,NA
+GRNQUA,unb,2017-08-10,3,B4,S,086,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,70,59,NA,NA
+GRNQUA,unb,2017-08-10,3,B2,S,339,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,70,68,huge ears,NA
+GRNQUA,unb,2017-08-10,3,C10,L,KING-079,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,F,L,N,NA,NA,NA,dead; looks like recap; maybe from GRNSNO?,KING-079
+GRNQUA,unb,2017-08-10,3,C1,S,314,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,69,60,NA,NA
+GRNQUA,unb,2017-08-10,3,D2,S,290,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,63,55,NA,NA
+GRNQUA,unb,2017-08-10,3,D3,L,211,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,14,62,57,NA,NA
+GRNQUA,unb,2017-08-10,3,E8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-10,3,F2,S,KING-003,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,55,46,dead,KING-003
+GRNQUA,unb,2017-08-10,3,F9,L,282,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,68,64,NA,NA
+GRNQUA,unb,2017-08-10,3,G10,L,080,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,23,65,61,NA,NA
+GRNQUA,unb,2017-08-10,3,G6,L,378,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,70,62,NA,NA
+GRNQUA,unb,2017-08-10,3,J1,L,704,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,22,89,69,could be recap; had holes in left ear where tag would be,NA
+GRNQUA,unb,2017-08-10,3,J9,L,448,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,14,74,64,NA,NA
+GRNQUA,unb,2017-08-10,3,J3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNQUA,unb,2017-08-10,3,H9,L,169,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,22,84,76,NA,NA
+GRNQUA,unb,2017-08-10,3,H6,S,289,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,86,68,NA,NA
+GRNQUA,unb,2017-08-10,3,I2,L,214,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,82,58,NA,NA
+GRNQUA,unb,2017-08-10,3,G1,S,243,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,66,56,dead in trap; no fluff and trap in shaded area --> hypothermia? Could possibly not have been checked yesterday. Hard to stretch body to measure body length.,KING-087
+GRNQUA,unb,2017-08-10,3,G3,S,317,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,92,77,NA,NA
+GRNSNO,unb,2017-07-18,1,F2,L,011,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,73,NA,NA
+GRNSNO,unb,2017-07-18,1,G3,L,197,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,85,66,NA,NA
+GRNSNO,unb,2017-07-18,1,G10,S,191,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,80,70,NA,NA
+GRNSNO,unb,2017-07-18,1,H7,S,CLIP-7,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,6,NA,49,butt clipped,NA
+GRNSNO,unb,2017-07-18,1,H6,L,182,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,85,68,NA,NA
+GRNSNO,unb,2017-07-18,1,J3,S,348,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,79,66,NA,NA
+GRNSNO,unb,2017-07-18,1,J4,L,332,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,8,76,59,NA,NA
+GRNSNO,unb,2017-07-18,1,J5,S,327,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,77,71,NA,NA
+GRNSNO,unb,2017-07-18,1,J10,L,281,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,14,72,62,NA,NA
+GRNSNO,unb,2017-07-18,1,I7,L,388,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,74,70,NA,NA
+GRNSNO,unb,2017-07-18,1,I4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-18,1,I2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-18,1,H1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-18,1,H3,S,489,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,10,71,66,NA,NA
+GRNSNO,unb,2017-07-19,2,J1,S,332,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,75,60,NA,NA
+GRNSNO,unb,2017-07-19,2,J3,S,348,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,78,66,NA,NA
+GRNSNO,unb,2017-07-19,2,J4,L,327,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,83,75,NA,NA
+GRNSNO,unb,2017-07-19,2,J7,S,182,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,78,68,NA,NA
+GRNSNO,unb,2017-07-19,2,J10,L,281,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,13,67,64,NA,NA
+GRNSNO,unb,2017-07-19,2,I4,S,388,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,78,69,NA,NA
+GRNSNO,unb,2017-07-19,2,H1,S,184,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,80,65,NA,NA
+GRNSNO,unb,2017-07-19,2,H3,S,011,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,76,73,NA,NA
+GRNSNO,unb,2017-07-19,2,H6,L,197,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,20,82,66,fat but doesn't seem pregnant,NA
+GRNSNO,unb,2017-07-19,2,H10,L,CLIP-8,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,NA,49,NA,NA
+GRNSNO,unb,2017-07-19,2,G9,L,191,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,78,67,NA,NA
+GRNSNO,unb,2017-07-19,2,A3,L,391,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,10,73,69,NA,NA
+GRNSNO,unb,2017-07-19,2,B2,L,CLIP-9,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,F,NA,N,4,NA,52,butt clipped,NA
+GRNSNO,unb,2017-07-19,2,C6,S,KING-025,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,NA,NA,NA,N,NA,NA,NA,dead,KING-025
+GRNSNO,unb,2017-07-19,2,C7,L,338,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,15,69,65,NA,NA
+GRNSNO,unb,2017-07-19,2,E1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-19,2,E5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-19,2,G4,S,489,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,74,68,NA,NA
+GRNSNO,unb,2017-07-19,2,G5,L,296,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,77,67,NA,NA
+GRNSNO,unb,2017-07-20,3,B3,S,391,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,14,70,68,NA,NA
+GRNSNO,unb,2017-07-20,3,A7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-20,3,C2,S,011,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,76,73,NA,NA
+GRNSNO,unb,2017-07-20,3,C7,L,338,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,14,70,64,NA,NA
+GRNSNO,unb,2017-07-20,3,D8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-20,3,G2,L,197,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,21,85,66,NA,NA
+GRNSNO,unb,2017-07-20,3,F2,S,388,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,70,68,NA,NA
+GRNSNO,unb,2017-07-20,3,F1,L,184,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,83,65,NA,NA
+GRNSNO,unb,2017-07-20,3,J1,S,332,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,77,61,NA,NA
+GRNSNO,unb,2017-07-20,3,J3,L,327,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,21,76,71,NA,NA
+GRNSNO,unb,2017-07-20,3,J8,L,182,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,81,70,NA,NA
+GRNSNO,unb,2017-07-20,3,J10,L,281,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,18,73,63,NA,NA
+GRNSNO,unb,2017-07-20,3,I8,S,191,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,76,69,NA,NA
+GRNSNO,unb,2017-07-20,3,I7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNSNO,unb,2017-07-20,3,I2,S,348,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,11,77,65,NA,NA
+GRNSNO,unb,2017-07-20,3,H4,L,489,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,75,66,NA,NA
+GRNSNO,unb,2017-07-20,3,H6,L,295,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,74,66,NA,NA
+GRNSNO,unb,2017-07-20,3,H7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,Y,NA,NA,NA,dead,KING-045
+GRNSNO,unb,2017-07-20,3,G8,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,appears to have escaped through hole in trap,NA
+GRNSNO,unb,2017-07-20,3,G7,L,296,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,77,66,NA,NA
+GRNTUR,unb,2017-07-11,1,A10,S,NA,SPRU,NA,NA,NA,A,M,T,N,16,NA,NA,escaped,NA
+GRNTUR,unb,2017-07-11,1,B8,L,355,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,12,75,65,NA,NA
+GRNTUR,unb,2017-07-11,1,B9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-11,1,C7,L,138,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,L,N,98,NA,NA,NA,NA
+GRNTUR,unb,2017-07-11,1,E6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-11,1,J1,S,487,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,72,58,NA,NA
+GRNTUR,unb,2017-07-11,1,J6,L,344,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,12,69,60,bad eartag,NA
+GRNTUR,unb,2017-07-11,1,J8,L,215,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,76,67,NA,NA
+GRNTUR,unb,2017-07-11,1,H6,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle really tight; appears to have been missed when setting traps,NA
+GRNTUR,unb,2017-07-11,1,I3,L,341,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,14,75,59,NA,NA
+GRNTUR,unb,2017-07-11,1,I1,L,335,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,NA,N,16,73,72,looked odd for PEMA; large ears and bicolored tail,NA
+GRNTUR,unb,2017-07-11,1,H4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-11,1,H10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-11,1,F1,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F2,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F4,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F5,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F7,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,F9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set (still in prebaiting mode),NA
+GRNTUR,unb,2017-07-11,1,I6,S,053,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,NA,F,NA,N,NA,69,68,dead,KING-033
+GRNTUR,unb,2017-07-12,2,J10,L,344,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,18,69,62,huge ears,NA
+GRNTUR,unb,2017-07-12,2,J8,L,215,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,83,69,may have recently given birth?,NA
+GRNTUR,unb,2017-07-12,2,J6,L,209,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,P,N,660,NA,NA,NA,NA
+GRNTUR,unb,2017-07-12,2,J3,S,341,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,15,66,56,NA,NA
+GRNTUR,unb,2017-07-12,2,J2,L,UNIQ-1,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,S,F,N,N,2,NA,NA,escaped,NA
+GRNTUR,unb,2017-07-12,2,H8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-12,2,H1,S,335,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,NA,Y,20,77,72,NA,NA
+GRNTUR,unb,2017-07-12,2,B1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-12,2,B10,L,354,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,13,73,68,NA,NA
+GRNTUR,unb,2017-07-12,2,D10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-12,2,E7,L,135,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,N,72,NA,NA,NA,NA
+GRNTUR,unb,2017-07-12,2,F5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-12,2,G6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-13,3,C10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+GRNTUR,unb,2017-07-13,3,C9,L,355,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,75,66,NA,NA
+GRNTUR,unb,2017-07-13,3,J6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-13,3,J8,L,215,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,16,86,72,NA,NA
+GRNTUR,unb,2017-07-13,3,J10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+GRNTUR,unb,2017-07-13,3,H10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-13,3,H1,S,487,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,75,60,NA,NA
+GRNTUR,unb,2017-07-13,3,H2,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,door half open,NA
+GRNTUR,unb,2017-07-13,3,H7,S,224,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,11,59,49,NA,NA
+GRNTUR,unb,2017-07-13,3,H8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNTUR,unb,2017-07-13,3,G6,S,218,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,17,74,68,NA,NA
+GRNTUR,unb,2017-07-13,3,G4,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-04,1,A3,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,not set; no batting,NA
+GRNWOO,unb,2017-07-04,1,B2,L,432,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,M,T,N,259,NA,NA,NA,NA
+GRNWOO,unb,2017-07-04,1,A5,L,168,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,F,P,N,181,NA,NA,NA,NA
+GRNWOO,unb,2017-07-04,1,A6,S,434,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,21,84,86,NA,NA
+GRNWOO,unb,2017-07-04,1,A7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle too tight,NA
+GRNWOO,unb,2017-07-04,1,B8,L,436,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,21,NA,89,escaped; PEBO is guess,NA
+GRNWOO,unb,2017-07-04,1,B1,S,433,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,14,70,64,NA,NA
+GRNWOO,unb,2017-07-04,1,C1,L,KING-048,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,NA,NA,NA,N,NA,NA,NA,dead; mort,KING-048
+GRNWOO,unb,2017-07-04,1,C2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-04,1,D3,S,CLIP-10,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,5,NA,NA,NA,NA
+GRNWOO,unb,2017-07-04,1,C4,S,151,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,70,68,treadle too tight,NA
+GRNWOO,unb,2017-07-04,1,E10,S,157,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,13,76,66,NA,NA
+GRNWOO,unb,2017-07-04,1,E7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by beetles,NA
+GRNWOO,unb,2017-07-04,1,D6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by beetles,NA
+GRNWOO,unb,2017-07-04,1,E5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,door doesn't close,NA
+GRNWOO,unb,2017-07-04,1,D4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+GRNWOO,unb,2017-07-04,1,H3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by millipede,NA
+GRNWOO,unb,2017-07-04,1,H6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-04,1,J2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by banana slug,NA
+GRNWOO,unb,2017-07-04,1,H9,L,439,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,70,63,broken tail,NA
+GRNWOO,unb,2017-07-04,1,F1,L,167,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,11,70,66,NA,NA
+GRNWOO,unb,2017-07-04,1,J4,L,430,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,71,64,NA,NA
+GRNWOO,unb,2017-07-05,2,J1,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-05,2,J9,L,154,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,9,80,62,NA,NA
+GRNWOO,unb,2017-07-05,2,H1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-05,2,H5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-05,2,H9,L,KING-065,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,NA,NA,NA,dead,KING-065
+GRNWOO,unb,2017-07-05,2,H10,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ants,NA
+GRNWOO,unb,2017-07-05,2,G9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ants,NA
+GRNWOO,unb,2017-07-05,2,G2,L,KING-047,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,NA,NA,NA,N,NA,NA,NA,dead (trap in sun),KING-047
+GRNWOO,unb,2017-07-05,2,F1,L,430,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,12,71,64,NA,NA
+GRNWOO,unb,2017-07-05,2,F2,S,167,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,9,68,65,NA,NA
+GRNWOO,unb,2017-07-05,2,B4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-05,2,C9,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-05,2,E6,S,157,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,8,70,63,NA,NA
+GRNWOO,unb,2017-07-05,2,D9,S,CLIP-10,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,Y,NA,NA,NA,dead (recap of live SOTR from 4 Jul 2017); updated from previous info,KING-057
+GRNWOO,unb,2017-07-05,2,E2,S,174,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,11,75,67,NA,NA
+GRNWOO,unb,2017-07-05,2,B3,S,155,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,65,14,had no tail; old injury,NA
+GRNWOO,unb,2017-07-05,2,B1,S,KING-058,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,NA,NA,NA,N,NA,NA,NA,dead,KING-058
+GRNWOO,unb,2017-07-05,2,D1,S,436,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,Y,20,91,91,NA,NA
+GRNWOO,unb,2017-07-05,2,A5,L,152,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,S,M,N,N,75,NA,NA,juvenile,NA
+GRNWOO,unb,2017-07-05,2,C1,L,168,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,F,P,Y,165,NA,NA,NA,NA
+GRNWOO,unb,2017-07-06,3,A2,S,155,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,78,NA,no tail,NA
+GRNWOO,unb,2017-07-06,3,A6,S,436,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,Y,18,86,90,chewed off end of tail?,NA
+GRNWOO,unb,2017-07-06,3,C6,S,468,PEBO,Peromyscus boylii,P. boylii,Cricetidae,S,M,N,N,12,78,83,NA,NA
+GRNWOO,unb,2017-07-06,3,J1,S,473,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,7,85,84,NA,NA
+GRNWOO,unb,2017-07-06,3,J7,L,DAY3-3,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,F,N,N,1,NA,NA,given pedialyte,NA
+GRNWOO,unb,2017-07-06,3,E2,S,167,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,14,59,62,NA,NA
+GRNWOO,unb,2017-07-06,3,J9,L,154,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,75,61,NA,NA
+GRNWOO,unb,2017-07-06,3,I8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-06,3,H10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-06,3,G3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-06,3,F3,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-06,3,F7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+GRNWOO,unb,2017-07-06,3,E1,L,168,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,F,P,Y,210,NA,NA,NA,NA
+HIBADR,high,2017-08-29,1,E10,S,262,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,80,63,NA,NA
+HIBADR,high,2017-08-29,1,H10,L,464,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,72,61,NA,NA
+HIBADR,high,2017-08-29,1,C8,S,768,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,M,NA,N,306,NA,NA,NA,NA
+HIBADR,high,2017-08-29,1,J7,L,326,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,77,72,NA,NA
+HIBADR,high,2017-08-29,1,C7,L,767,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,N,281,NA,NA,NA,NA
+HIBADR,high,2017-08-29,1,D6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,squirrel tail inside,NA
+HIBADR,high,2017-08-29,1,G6,L,KING-012,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,NA,79,72,mort,KING-012
+HIBADR,high,2017-08-29,1,E5,L,754,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,80,72,NA,NA
+HIBADR,high,2017-08-29,1,B2,L,757,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,82,72,NA,NA
+HIBADR,high,2017-08-29,1,C2,S,KING-009,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,NA,74,65,mort,KING-009
+HIBADR,high,2017-08-29,1,A1,L,985,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,80,62,NA,NA
+HIBADR,high,2017-08-29,1,E1,L,KING-007,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,80,5,mort; tail also cut off (possibly in trap),KING-007
+HIBADR,high,2017-08-29,1,I1,L,894,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,85,70,NA,NA
+HIBADR,high,2017-08-29,1,J2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-29,1,E3,L,660,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,N,288,NA,NA,NA,NA
+HIBADR,high,2017-08-29,1,I3,L,KING-004,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,88,65,mort,KING-004
+HIBADR,high,2017-08-30,2,I10,S,464,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,18,81,59,NA,NA
+HIBADR,high,2017-08-30,2,J10,L,887,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,88,60,NA,NA
+HIBADR,high,2017-08-30,2,D8,L,739,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,80,67,NA,NA
+HIBADR,high,2017-08-30,2,J7,S,326,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,80,66,NA,NA
+HIBADR,high,2017-08-30,2,C5,L,767,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,Y,285,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,D5,S,768,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,M,NA,Y,300,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,E7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by cricket,NA
+HIBADR,high,2017-08-30,2,B6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,A1,L,735,TASE,Neotamias senex,N. senex,Sciuridae,S,M,N,N,65,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,H2,L,894,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,21,78,66,NA,NA
+HIBADR,high,2017-08-30,2,E2,S,779,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,77,70,NA,NA
+HIBADR,high,2017-08-30,2,C2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,A2,S,757,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,75,69,NA,NA
+HIBADR,high,2017-08-30,2,C3,L,807,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,82,72,NA,NA
+HIBADR,high,2017-08-30,2,G4,S,771,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,12,79,69,NA,NA
+HIBADR,high,2017-08-30,2,A4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,B5,S,660,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,Y,286,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,F5,S,754,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,11,79,71,NA,NA
+HIBADR,high,2017-08-30,2,I5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-30,2,H6,L,KING-010,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,NA,78,67,mort,KING-010
+HIBADR,high,2017-08-30,2,G6,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle not working,NA
+HIBADR,high,2017-08-31,3,A1,L,735,TASE,Neotamias senex,N. senex,Sciuridae,S,M,N,Y,66,NA,NA,NA,NA
+HIBADR,high,2017-08-31,3,I2,S,996,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,13,65,60,NA,NA
+HIBADR,high,2017-08-31,3,G2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+HIBADR,high,2017-08-31,3,E2,S,KING-121,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,NA,85,65,mort,KING-121
+HIBADR,high,2017-08-31,3,C2,S,807,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,77,68,mort,KING-092
+HIBADR,high,2017-08-31,3,B2,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,front door undisturbed; back door jammed open,NA
+HIBADR,high,2017-08-31,3,A2,S,757,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,22,95,80,NA,NA
+HIBADR,high,2017-08-31,3,J3,S,971,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,80,68,NA,NA
+HIBADR,high,2017-08-31,3,G4,S,771,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,73,66,mort,KING-139
+HIBADR,high,2017-08-31,3,B5,S,739,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,80,65,NA,NA
+HIBADR,high,2017-08-31,3,J10,L,887,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,78,62,NA,NA
+HIBADR,high,2017-08-31,3,D10,L,773,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,61,55,NA,NA
+HIBADR,high,2017-08-31,3,C10,S,756,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,70,51,NA,NA
+HIBADR,high,2017-08-31,3,A9,L,825,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,79,71,NA,NA
+HIBADR,high,2017-08-31,3,E9,L,900,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,80,62,NA,NA
+HIBADR,high,2017-08-31,3,I9,L,818,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,P,N,457,NA,NA,claws ripped off,NA
+HIBADR,high,2017-08-31,3,J9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-31,3,D8,L,768,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,M,NA,Y,287,NA,NA,NA,NA
+HIBADR,high,2017-08-31,3,C6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIBADR,high,2017-08-31,3,E6,S,767,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,Y,293,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,G1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-27,1,G4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,H4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,H8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,F6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,G6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-27,1,F3,L,300399,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,N,16,60,66,parasites,NA
+HICAMP,high,2017-06-27,1,G3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Not set,NA
+HICAMP,high,2017-06-27,1,F10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,F2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-27,1,F1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-27,1,D1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,D2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-27,1,D4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,D5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,D6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,E1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,E2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,E3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,E4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,J4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,I1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,I2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,A3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,A4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,A6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,A5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,noticibly moved,NA
+HICAMP,high,2017-06-27,1,B1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,B10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,C1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,C2,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,C3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,C5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,C6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,E5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-27,1,E7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,E8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-27,1,J8,S,129373,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,19,68,61,NA,NA
+HICAMP,high,2017-06-27,1,J10,S,413422,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,13,77,63,NA,NA
+HICAMP,high,2017-06-27,1,J9,L,382277,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,11,52,59,NA,NA
+HICAMP,high,2017-06-27,1,C8,L,131357,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,13,64,63,NA,NA
+HICAMP,high,2017-06-27,1,J5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped mouse,NA
+HICAMP,high,2017-06-27,1,I10,L,415109,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,14,75,59,NA,NA
+HICAMP,high,2017-06-27,1,B9,L,NA,SPRU,NA,NA,NA,A,NA,NA,N,600,NA,NA,escaped,NA
+HICAMP,high,2017-06-28,2,A8,L,458,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,NA,NA,NA,N,630,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,B9,L,470465,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,73,65,NA,NA
+HICAMP,high,2017-06-28,2,B1,L,255,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,P,N,620,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,J9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+HICAMP,high,2017-06-28,2,G3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,moved,NA
+HICAMP,high,2017-06-28,2,G5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,G7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-28,2,G9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over,NA
+HICAMP,high,2017-06-28,2,G10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,H10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,flipped,NA
+HICAMP,high,2017-06-28,2,H8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,H7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,H4,S,300399,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,Y,20,64,72,NA,NA
+HICAMP,high,2017-06-28,2,A3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,C2,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,D10,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,C5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,kicked over,NA
+HICAMP,high,2017-06-28,2,F4,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,kicked over; grass inside,NA
+HICAMP,high,2017-06-28,2,I10,L,415109,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,9,70,58,NA,NA
+HICAMP,high,2017-06-28,2,F6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,F7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,F8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,F9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,F10,L,454452,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,25,73,61,NA,NA
+HICAMP,high,2017-06-28,2,J7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tipped over/on side; bait present,NA
+HICAMP,high,2017-06-28,2,I2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,E2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,E5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,moved out of place,NA
+HICAMP,high,2017-06-28,2,E6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle too loose,NA
+HICAMP,high,2017-06-28,2,E7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-28,2,E9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,knocked over and sprung,NA
+HICAMP,high,2017-06-28,2,J2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,N,19,NA,NA,Escaped,NA
+HICAMP,high,2017-06-28,2,J10,S,379293,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,69,68,NA,NA
+HICAMP,high,2017-06-28,2,H2,L,150352,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,19,70,65,NA,NA
+HICAMP,high,2017-06-28,2,D9,L,397,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,N,435,NA,130,NA,NA
+HICAMP,high,2017-06-28,2,J3,L,363,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,N,585,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,A3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,A4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,A9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tipped,NA
+HICAMP,high,2017-06-29,3,B2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tipped,NA
+HICAMP,high,2017-06-29,3,I10,L,454452,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,21,59,60,NA,NA
+HICAMP,high,2017-06-29,3,E8,L,144279,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,15,65,55,NA,NA
+HICAMP,high,2017-06-29,3,H1,L,360126,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,NA,N,20,NA,NA,very brown; dorsal stripe on tail; escaped,NA
+HICAMP,high,2017-06-29,3,B3,L,297,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,N,699,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,G1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,G2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,G3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,G5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,J10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,I3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,E4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,E5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,E7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,J4,S,129373,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,16,65,60,NA,NA
+HICAMP,high,2017-06-29,3,F2,S,300399,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,T,Y,18,80,65,NA,NA
+HICAMP,high,2017-06-29,3,H3,L,111119,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,74,61,NA,NA
+HICAMP,high,2017-06-29,3,B7,L,108125,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,16,70,68,ear 12 mm,NA
+HICAMP,high,2017-06-29,3,C2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICAMP,high,2017-06-29,3,C8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,Y,15,NA,NA,escaped,NA
+HICAMP,high,2017-06-29,3,D2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICORN,high,2017-08-15,1,A3,S,989,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,22,81,72,NA,NA
+HICORN,high,2017-08-15,1,A4,L,981,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,77,64,NA,NA
+HICORN,high,2017-08-15,1,B8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICORN,high,2017-08-15,1,B10,S,050,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,22,79,64,NA,NA
+HICORN,high,2017-08-15,1,A10,L,982,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,86,69,NA,NA
+HICORN,high,2017-08-15,1,B6,S,962,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,78,69,NA,NA
+HICORN,high,2017-08-15,1,B5,L,997,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,23,86,84,NA,NA
+HICORN,high,2017-08-15,1,C2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,N,NA,NA,NA,escaped,NA
+HICORN,high,2017-08-15,1,C5,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle not set after prebaiting,NA
+HICORN,high,2017-08-15,1,C6,L,959,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,84,62,NA,NA
+HICORN,high,2017-08-15,1,C9,S,885,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,85,74,early pregnancy,NA
+HICORN,high,2017-08-15,1,D7,L,978,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,79,71,NA,NA
+HICORN,high,2017-08-15,1,D3,L,970,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,81,63,NA,NA
+HICORN,high,2017-08-15,1,D1,L,878,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,80,73,NA,NA
+HICORN,high,2017-08-15,1,E1,S,960,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,NA,74,faked death and escaped,NA
+HICORN,high,2017-08-15,1,E4,L,979,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,26,79,70,very pregnant,NA
+HICORN,high,2017-08-15,1,E8,L,967,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,79,72,beautiful pelage,NA
+HICORN,high,2017-08-15,1,F9,L,953,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,82,78,NA,NA
+HICORN,high,2017-08-15,1,F4,S,899,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,83,64,NA,NA
+HICORN,high,2017-08-15,1,F2,S,992,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,72,68,NA,NA
+HICORN,high,2017-08-15,1,G1,S,884,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,72,65,NA,NA
+HICORN,high,2017-08-15,1,G7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICORN,high,2017-08-15,1,G9,S,895,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,80,68,very scrotal,NA
+HICORN,high,2017-08-15,1,J2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICORN,high,2017-08-15,1,J3,L,381,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,NA,NA,N,20,75,70,NA,NA
+HICORN,high,2017-08-15,1,J4,S,331,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,11,65,63,NA,NA
+HICORN,high,2017-08-15,1,J5,L,291,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,12,90,75,NA,NA
+HICORN,high,2017-08-15,1,J6,S,726,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,22,100,80,NA,NA
+HICORN,high,2017-08-15,1,J8,S,749013,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,75,70,NA,NA
+HICORN,high,2017-08-15,1,J10,S,750269,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,92,70,NA,NA
+HICORN,high,2017-08-15,1,I3,S,747,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,80,68,NA,NA
+HICORN,high,2017-08-15,1,I1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICORN,high,2017-08-15,1,H1,L,748,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,20,82,70,NA,NA
+HICORN,high,2017-08-15,1,H2,S,746,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,85,70,NA,NA
+HICORN,high,2017-08-15,1,H4,S,730988,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,80,71,NA,NA
+HICORN,high,2017-08-15,1,H7,L,NA,SPRU,NA,NA,NA,A,M,T,N,16,81,70,escaped,NA
+HICORN,high,2017-08-15,1,H8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICORN,high,2017-08-16,2,J2,S,976,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,12,72,70,NA,NA
+HICORN,high,2017-08-16,2,J3,L,291,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,80,74,bad tag; retagged with same tag,NA
+HICORN,high,2017-08-16,2,J6,S,189,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,78,67,has had previous litter,NA
+HICORN,high,2017-08-16,2,J8,S,749013,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,86,74,worried about left tag so tagged right ear,NA
+HICORN,high,2017-08-16,2,J10,S,750269,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,85,72,post-lactacting; worried about left tag so tagged right ear,NA
+HICORN,high,2017-08-16,2,I7,S,958,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,72,69,very small,NA
+HICORN,high,2017-08-16,2,I5,S,730988,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,75,70,worried about left tag so tagged right ear,NA
+HICORN,high,2017-08-16,2,I3,S,986,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,16,75,69,NA,NA
+HICORN,high,2017-08-16,2,I1,S,179,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,13,72,66,NA,NA
+HICORN,high,2017-08-16,2,H2,S,747,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,75,70,NA,NA
+HICORN,high,2017-08-16,2,H3,L,966,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,24,82,73,fat,NA
+HICORN,high,2017-08-16,2,H5,L,899,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,84,65,NA,NA
+HICORN,high,2017-08-16,2,H8,S,953,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,82,76,NA,NA
+HICORN,high,2017-08-16,2,G10,L,890,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,78,64,pretty fur and bristly tail; but short tail,NA
+HICORN,high,2017-08-16,2,G9,S,895,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,80,70,very scrotal,NA
+HICORN,high,2017-08-16,2,G3,S,877,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,83,71,NA,NA
+HICORN,high,2017-08-16,2,F1,L,466,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,77,74,too pregnant to jump,NA
+HICORN,high,2017-08-16,2,E8,L,967,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,82,70,NA,NA
+HICORN,high,2017-08-16,2,E4,L,979,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,26,79,71,might give birth tomorrow,NA
+HICORN,high,2017-08-16,2,E1,S,997,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,22,89,85,old mouse,NA
+HICORN,high,2017-08-16,2,A1,S,744,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,65,60,possible recap? Hole in ear,NA
+HICORN,high,2017-08-16,2,A2,L,743993,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,92,65,NA,NA
+HICORN,high,2017-08-16,2,A3,S,981,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,20,73,65,NA,NA
+HICORN,high,2017-08-16,2,A4,L,989,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,21,94,67,NA,NA
+HICORN,high,2017-08-16,2,A6,L,977,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,86,74,NA,NA
+HICORN,high,2017-08-16,2,A7,S,888,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,72,70,NA,NA
+HICORN,high,2017-08-16,2,A8,L,954,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,73,71,NA,NA
+HICORN,high,2017-08-16,2,B9,L,982,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,80,68,NA,NA
+HICORN,high,2017-08-16,2,B7,L,972,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,81,71,NA,NA
+HICORN,high,2017-08-16,2,B5,L,962,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,11,70,65,NA,NA
+HICORN,high,2017-08-16,2,B4,S,970,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,80,60,NA,NA
+HICORN,high,2017-08-16,2,B2,S,992,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,72,68,NA,NA
+HICORN,high,2017-08-16,2,C2,L,964,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,15,80,66,NA,NA
+HICORN,high,2017-08-16,2,C3,S,879,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,14,69,58,NA,NA
+HICORN,high,2017-08-16,2,C8,L,885,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,90,70,NA,NA
+HICORN,high,2017-08-16,2,C9,S,050,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,78,66,NA,NA
+HICORN,high,2017-08-16,2,D7,L,978,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,12,79,70,NA,NA
+HICORN,high,2017-08-16,2,D1,L,960,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,76,73,escaped,NA
+HICORN,high,2017-08-17,3,A1,S,743993,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,84,69,bad left tag; tagged right ear,NA
+HICORN,high,2017-08-17,3,A2,L,989,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,21,84,71,NA,NA
+HICORN,high,2017-08-17,3,A3,S,981,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,84,68,not doing great (heat stroke and/or spinal injury); later died,KING-163
+HICORN,high,2017-08-17,3,A4,L,968,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,8,60,55,tiny grey mouse,NA
+HICORN,high,2017-08-17,3,A6,L,977,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,80,73,NA,NA
+HICORN,high,2017-08-17,3,A8,L,888,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,80,72,NA,NA
+HICORN,high,2017-08-17,3,A10,L,982,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,80,71,NA,NA
+HICORN,high,2017-08-17,3,B6,S,955,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,74,66,NA,NA
+HICORN,high,2017-08-17,3,B5,L,962,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,81,68,NA,NA
+HICORN,high,2017-08-17,3,B4,S,744,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,79,65,huge testicles,NA
+HICORN,high,2017-08-17,3,C2,L,970,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,80,70,NA,NA
+HICORN,high,2017-08-17,3,C6,L,959,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,85,63,maybe regressed,NA
+HICORN,high,2017-08-17,3,D7,L,978,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,75,71,NA,NA
+HICORN,high,2017-08-17,3,D5,L,972,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,82,73,NA,NA
+HICORN,high,2017-08-17,3,D1,L,964,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,77,64,early pregnancy,NA
+HICORN,high,2017-08-17,3,E1,S,997,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,90,85,NA,NA
+HICORN,high,2017-08-17,3,E2,L,992,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,71,66,slightly grey pelage,NA
+HICORN,high,2017-08-17,3,E4,L,899,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,81,64,NA,NA
+HICORN,high,2017-08-17,3,E8,L,967,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,83,71,NA,NA
+HICORN,high,2017-08-17,3,F6,S,877,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,78,69,dead on arrival,KING-167
+HICORN,high,2017-08-17,3,F5,L,983,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,11,65,59,SA pelage but red vulva,NA
+HICORN,high,2017-08-17,3,F3,L,994,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,80,74,NA,NA
+HICORN,high,2017-08-17,3,H5,L,KING-166,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,84,72,heatstroke - died after care,KING-166
+HICORN,high,2017-08-17,3,F1,L,980,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,22,87,72,NA,NA
+HICORN,high,2017-08-17,3,G1,S,884,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,75,65,NA,NA
+HICORN,high,2017-08-17,3,G3,S,979,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,29,82,71,NA,NA
+HICORN,high,2017-08-17,3,J1,L,969732,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,71,68,messed up left ear tag,NA
+HICORN,high,2017-08-17,3,J2,S,381,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,NA,NA,Y,16,83,65,NA,NA
+HICORN,high,2017-08-17,3,J5,L,726,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,23,83,79,NA,NA
+HICORN,high,2017-08-17,3,J6,S,291,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,21,90,80,NA,NA
+HICORN,high,2017-08-17,3,J7,L,733,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,26,91,80,NA,NA
+HICORN,high,2017-08-17,3,J9,L,749013,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,83,75,2 tags,NA
+HICORN,high,2017-08-17,3,I10,L,750269,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,88,71,2 tags,NA
+HICORN,high,2017-08-17,3,I4,L,730988,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,78,65,2 tags,NA
+HICORN,high,2017-08-17,3,I3,S,986,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,80,69,NA,NA
+HICORN,high,2017-08-17,3,I2,L,000,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,10,78,66,NA,NA
+HICORN,high,2017-08-17,3,I1,S,179,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,9,67,64,NA,NA
+HICORN,high,2017-08-17,3,H1,L,746,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,81,66,tag may say 756; illegible,NA
+HICORN,high,2017-08-17,3,H2,S,747,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,10,79,68,NA,NA
+HICORN,high,2017-08-17,3,H3,L,966,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,90,70,NA,NA
+HICORN,high,2017-08-17,3,H4,S,181,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,22,93,70,NA,NA
+HICORN,high,2017-08-17,3,G10,L,895,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,83,69,NA,NA
+HICORN,high,2017-08-17,3,G9,S,953,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,12,79,72,NA,NA
+HICORN,high,2017-08-17,3,G7,S,958,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,11,71,66,NA,NA
+HICORN,high,2017-08-17,3,G4,L,728,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,10,72,56,NA,NA
+HICOWS,high,2017-08-23,1,A8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,A9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,A10,S,202,PEBO,Peromyscus boylii,P. boylii,Cricetidae,S,F,N,N,18,82,96,NA,NA
+HICOWS,high,2017-08-23,1,B9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,B8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,C4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,C7,L,088,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,NA,NA,N,18,65,76,NA,NA
+HICOWS,high,2017-08-23,1,C8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,D9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,D7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,D6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,E1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,F2,L,485,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,71,69,NA,NA
+HICOWS,high,2017-08-23,1,F5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,F3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,H8,L,425,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,55,61,NA,NA
+HICOWS,high,2017-08-23,1,G9,L,407,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,71,72,NA,NA
+HICOWS,high,2017-08-23,1,I5,L,483,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,66,69,NA,NA
+HICOWS,high,2017-08-23,1,J4,S,860,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,71,65,NA,NA
+HICOWS,high,2017-08-23,1,J5,S,411,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,24,82,77,NA,NA
+HICOWS,high,2017-08-23,1,D5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-23,1,D3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-24,2,J4,S,121,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,72,65,NA,NA
+HICOWS,high,2017-08-24,2,J5,S,860,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,71,66,NA,NA
+HICOWS,high,2017-08-24,2,I4,S,485,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,13,72,71,NA,NA
+HICOWS,high,2017-08-24,2,I8,S,407,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,71,76,NA,NA
+HICOWS,high,2017-08-24,2,J8,S,411,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,20,82,78,NA,NA
+HICOWS,high,2017-08-24,2,H5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-24,2,H8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-24,2,F2,L,483,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,82,69,measurements good,NA
+HICOWS,high,2017-08-24,2,F8,L,085,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,75,70,NA,NA
+HICOWS,high,2017-08-24,2,C4,S,102,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,81,71,NA,NA
+HICOWS,high,2017-08-24,2,C5,L,088,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,NA,NA,Y,17,83,79,NA,NA
+HICOWS,high,2017-08-24,2,B1,S,481,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,25,85,73,NA,NA
+HICOWS,high,2017-08-24,2,B3,S,350,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,M,N,N,22,79,95,NA,NA
+HICOWS,high,2017-08-24,2,B2,L,482,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,14,69,62,NA,NA
+HICOWS,high,2017-08-25,3,J10,S,411,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,75,72,NA,NA
+HICOWS,high,2017-08-25,3,J5,S,407,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,76,71,NA,NA
+HICOWS,high,2017-08-25,3,G1,L,485,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,72,66,small; grey,NA
+HICOWS,high,2017-08-25,3,F1,S,NA,SPRU,NA,NA,NA,A,M,T,Y,11,NA,NA,escaped; mouse,NA
+HICOWS,high,2017-08-25,3,J3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,bad trap,NA
+HICOWS,high,2017-08-25,3,D4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HICOWS,high,2017-08-25,3,B3,S,481,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,81,65,NA,NA
+HICOWS,high,2017-08-25,3,A4,S,651,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,88,62,part of tail cut off; possibly PEBO,NA
+HICOWS,high,2017-08-25,3,C7,L,102,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,76,71,NA,NA
+HICOWS,high,2017-08-25,3,C9,L,057,PETR,Peromyscus truei,P. truei,Cricetidae,A,F,P,N,18,84,87,NA,NA
+HIDODD,high,2017-07-25,1,F10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Beetles,NA
+HIDODD,high,2017-07-25,1,G10,S,463,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,N,80,NA,NA,very red sides,NA
+HIDODD,high,2017-07-25,1,J10,L,253,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,75,63,NA,NA
+HIDODD,high,2017-07-25,1,I9,S,266,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,NA,NA,N,13,60,64,NA,NA
+HIDODD,high,2017-07-25,1,D9,S,471,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,21,75,67,NA,NA
+HIDODD,high,2017-07-25,1,C9,L,251,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,26,80,75,left ear damaged; tagged right ear only (later tagged 251),NA
+HIDODD,high,2017-07-25,1,B9,S,NA,SPRU,NA,NA,NA,A,NA,NA,N,NA,NA,NA,escaped,NA
+HIDODD,high,2017-07-25,1,A9,L,461,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,75,66,NA,NA
+HIDODD,high,2017-07-25,1,D8,L,270,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,27,75,68,NA,NA
+HIDODD,high,2017-07-25,1,G8,S,271,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,24,80,85,smooth incisors,NA
+HIDODD,high,2017-07-25,1,J8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,N,NA,NA,NA,escaped,NA
+HIDODD,high,2017-07-25,1,E7,L,267,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,75,70,broken right front leg,NA
+HIDODD,high,2017-07-25,1,B7,S,KING-059,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,NA,NA,NA,dead in trap,KING-059
+HIDODD,high,2017-07-25,1,A7,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,door broken,NA
+HIDODD,high,2017-07-25,1,B6,L,272,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,72,70,NA,NA
+HIDODD,high,2017-07-25,1,F1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,N,NA,NA,NA,escaped; zipper on bag broke,NA
+HIDODD,high,2017-07-25,1,J1,L,356,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,78,63,NA,NA
+HIDODD,high,2017-07-25,1,F2,L,351,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,NA,N,13,81,64,NA,NA
+HIDODD,high,2017-07-25,1,E2,S,145,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,24,97,78,large,NA
+HIDODD,high,2017-07-25,1,D2,L,133,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,80,64,NA,NA
+HIDODD,high,2017-07-25,1,C3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-25,1,J3,L,369,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,22,86,72,NA,NA
+HIDODD,high,2017-07-25,1,C4,S,139,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,86,78,very scrotal,NA
+HIDODD,high,2017-07-25,1,C5,L,371,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,85,59,NA,NA
+HIDODD,high,2017-07-26,2,I6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-26,2,C6,S,272,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,70,68,NA,NA
+HIDODD,high,2017-07-26,2,G2,S,356,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,77,63,NA,NA
+HIDODD,high,2017-07-26,2,J3,L,369,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,17,86,71,nipples were very apparent,NA
+HIDODD,high,2017-07-26,2,B1,S,128,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,25,86,82,NA,NA
+HIDODD,high,2017-07-26,2,E4,S,353,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,71,56,NA,NA
+HIDODD,high,2017-07-26,2,D2,L,137,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,85,63,NA,NA
+HIDODD,high,2017-07-26,2,F2,L,145,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,NA,78,body lenth in the 90s; very pregnant,NA
+HIDODD,high,2017-07-26,2,J6,L,141,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,80,65,NA,NA
+HIDODD,high,2017-07-26,2,E3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,N,21,NA,NA,escaped,NA
+HIDODD,high,2017-07-26,2,J1,L,146,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,81,68,NA,NA
+HIDODD,high,2017-07-26,2,A4,S,375,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,85,62,NA,NA
+HIDODD,high,2017-07-26,2,F1,S,351,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,NA,Y,12,79,64,NA,NA
+HIDODD,high,2017-07-26,2,C3,L,133,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,77,65,NA,NA
+HIDODD,high,2017-07-26,2,B10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,beetles,NA
+HIDODD,high,2017-07-26,2,C10,S,472,TASE,Neotamias senex,N. senex,Sciuridae,A,F,L,N,81,NA,NA,NA,NA
+HIDODD,high,2017-07-26,2,D10,L,471,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,22,75,70,NA,NA
+HIDODD,high,2017-07-26,2,A9,L,461,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,70,67,NA,NA
+HIDODD,high,2017-07-26,2,A7,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-26,2,A8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,beetles,NA
+HIDODD,high,2017-07-26,2,D9,S,270,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,70,76,NA,NA
+HIDODD,high,2017-07-26,2,E10,S,265,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,75,70,NA,NA
+HIDODD,high,2017-07-26,2,A2,S,274,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,71,NA,NA
+HIDODD,high,2017-07-26,2,G10,S,463,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,Y,71,NA,NA,white spot behind ears; same as yesterday,NA
+HIDODD,high,2017-07-26,2,J10,L,371,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,80,62,NA,NA
+HIDODD,high,2017-07-26,2,I9,S,469,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,75,73,NA,NA
+HIDODD,high,2017-07-26,2,H9,S,271,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,22,80,78,NA,NA
+HIDODD,high,2017-07-26,2,C9,L,251,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,80,75,right eared mouse from 25 Jul 2017,NA
+HIDODD,high,2017-07-26,2,B8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,beetles,NA
+HIDODD,high,2017-07-26,2,C8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-26,2,D7,S,459,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,60,50,NA,NA
+HIDODD,high,2017-07-26,2,B9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-26,2,B5,S,139,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,80,68,one large testicle,NA
+HIDODD,high,2017-07-26,2,A6,S,475,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,80,72,really vocal,NA
+HIDODD,high,2017-07-27,3,B7,S,251,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,80,74,right tag,NA
+HIDODD,high,2017-07-27,3,A7,S,475,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,79,70,NA,NA
+HIDODD,high,2017-07-27,3,A8,S,461,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,78,66,NA,NA
+HIDODD,high,2017-07-27,3,E10,S,265,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,72,68,NA,NA
+HIDODD,high,2017-07-27,3,J10,L,NA,SPRU,NA,NA,NA,A,NA,NA,Y,19,NA,NA,escaped,NA
+HIDODD,high,2017-07-27,3,I9,S,469,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,80,71,NA,NA
+HIDODD,high,2017-07-27,3,H9,S,271,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,84,80,NA,NA
+HIDODD,high,2017-07-27,3,G9,L,371,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,25,82,63,NA,NA
+HIDODD,high,2017-07-27,3,F9,S,259,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,86,73,NA,NA
+HIDODD,high,2017-07-27,3,E9,L,254,TASE,Neotamias senex,N. senex,Sciuridae,S,F,N,N,54,NA,NA,have photos for coloration,NA
+HIDODD,high,2017-07-27,3,D6,L,267,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,78,71,NA,NA
+HIDODD,high,2017-07-27,3,C8,S,270,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,72,70,NA,NA
+HIDODD,high,2017-07-27,3,F8,L,266,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,NA,NA,Y,14,68,66,very grey; but bicolored,NA
+HIDODD,high,2017-07-27,3,C7,L,272,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,69,66,NA,NA
+HIDODD,high,2017-07-27,3,I6,S,141,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,74,68,NA,NA
+HIDODD,high,2017-07-27,3,A3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-27,3,B4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-27,3,H6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIDODD,high,2017-07-27,3,H5,S,353,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,74,59,NA,NA
+HIDODD,high,2017-07-27,3,F5,S,137,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,88,64,NA,NA
+HIDODD,high,2017-07-27,3,J4,L,472,TASE,Neotamias senex,N. senex,Sciuridae,A,F,L,Y,82,NA,NA,NA,NA
+HIDODD,high,2017-07-27,3,C5,L,139,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,82,68,NA,NA
+HIDODD,high,2017-07-27,3,E4,S,133,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,79,70,NA,NA
+HIDODD,high,2017-07-27,3,F3,S,136,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,P,N,24,90,93,ears 16mm; tail tufted at end,NA
+HIDODD,high,2017-07-27,3,A4,S,146,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,82,61,NA,NA
+HIDODD,high,2017-07-27,3,C3,L,372,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,18,84,67,very grey,NA
+HIDODD,high,2017-07-27,3,B1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+HIDODD,high,2017-07-27,3,G2,S,356,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,12,82,64,NA,NA
+HIDODD,high,2017-07-27,3,J1,L,369,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,19,93,78,NA,NA
+HIDODD,high,2017-07-27,3,F2,L,145,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,94,74,NA,NA
+HISHRU,high,2017-08-08,1,A10,S,819,TAAM,Neotamias amoenus,N. amoenus,Sciuridae,S,M,N,N,61,NA,NA,white tipped hairs,NA
+HISHRU,high,2017-08-08,1,A9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by chipping sparrow,NA
+HISHRU,high,2017-08-08,1,A8,S,820,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,85,70,NA,NA
+HISHRU,high,2017-08-08,1,A1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by juvenile flycatcher,NA
+HISHRU,high,2017-08-08,1,B1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-08,1,C2,S,817,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,88,65,NA,NA
+HISHRU,high,2017-08-08,1,C5,L,186,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,84,68,NA,NA
+HISHRU,high,2017-08-08,1,D6,L,811,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,25,100,75,NA,NA
+HISHRU,high,2017-08-08,1,C8,S,038,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,82,65,NA,NA
+HISHRU,high,2017-08-08,1,E10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-08,1,E7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-08,1,E6,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-08,1,E4,S,816,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,22,85,75,NA,NA
+HISHRU,high,2017-08-08,1,J10,L,710,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,75,72,NA,NA
+HISHRU,high,2017-08-08,1,J8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-08,1,J5,S,147,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,86,70,NA,NA
+HISHRU,high,2017-08-08,1,I7,L,718,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,82,71,NA,NA
+HISHRU,high,2017-08-08,1,I9,L,368,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,16,75,56,NA,NA
+HISHRU,high,2017-08-08,1,I10,S,365,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,10,73,64,NA,NA
+HISHRU,high,2017-08-08,1,H9,S,NA,SPRU,NA,NA,NA,A,NA,NA,N,NA,NA,NA,escaped,NA
+HISHRU,high,2017-08-08,1,H1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-08,1,G9,L,701,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,84,77,NA,NA
+HISHRU,high,2017-08-08,1,G10,S,709,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,77,60,NA,NA
+HISHRU,high,2017-08-08,1,F5,L,374,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,82,79,large ears; not REME,NA
+HISHRU,high,2017-08-09,2,A9,L,134,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,17,75,75,NA,NA
+HISHRU,high,2017-08-09,2,A8,S,820,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,85,70,NA,NA
+HISHRU,high,2017-08-09,2,A5,L,725,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,74,66,very grey,NA
+HISHRU,high,2017-08-09,2,A4,S,719,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,S,F,N,N,70,NA,NA,could be juvenile? No apparent nipples,NA
+HISHRU,high,2017-08-09,2,A3,L,132,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,80,70,NA,NA
+HISHRU,high,2017-08-09,2,A2,S,186,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,89,65,NA,NA
+HISHRU,high,2017-08-09,2,C10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-09,2,C7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-09,2,C2,S,817,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,87,66,NA,NA
+HISHRU,high,2017-08-09,2,D9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,never set,NA
+HISHRU,high,2017-08-09,2,E8,S,720,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,S,F,N,N,62,NA,NA,NA,NA
+HISHRU,high,2017-08-09,2,J10,L,822,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,26,95,62,NA,NA
+HISHRU,high,2017-08-09,2,J8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,full of beetles,NA
+HISHRU,high,2017-08-09,2,J6,L,034,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,28,93,65,NA,NA
+HISHRU,high,2017-08-09,2,I10,S,710,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,80,74,NA,NA
+HISHRU,high,2017-08-09,2,J5,S,147,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,85,69,NA,NA
+HISHRU,high,2017-08-09,2,I7,L,718,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,83,74,NA,NA
+HISHRU,high,2017-08-09,2,J1,S,816,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,21,83,76,NA,NA
+HISHRU,high,2017-08-09,2,H3,S,804,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,90,66,NA,NA
+HISHRU,high,2017-08-09,2,H4,L,821,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,79,76,NA,NA
+HISHRU,high,2017-08-09,2,H6,L,806,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,NA,NA,NA,NA
+HISHRU,high,2017-08-09,2,G9,L,017,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,N,N,750,NA,NA,NA,NA
+HISHRU,high,2017-08-09,2,G5,L,374,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,81,74,NA,NA
+HISHRU,high,2017-08-09,2,F9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-09,2,E9,L,819,TAAM,Neotamias amoenus,N. amoenus,Sciuridae,S,M,N,Y,60,NA,NA,CHANGE ID OF PREVOUS CAPTURE,NA
+HISHRU,high,2017-08-10,3,E10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-10,3,E6,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle jammed,NA
+HISHRU,high,2017-08-10,3,E2,S,816,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,21,81,75,NA,NA
+HISHRU,high,2017-08-10,3,F1,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle jammed,NA
+HISHRU,high,2017-08-10,3,F4,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle too tight,NA
+HISHRU,high,2017-08-10,3,F9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISHRU,high,2017-08-10,3,F8,L,017,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,Y,790,NA,NA,NA,NA
+HISHRU,high,2017-08-10,3,G10,S,822,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,85,78,NA,NA
+HISHRU,high,2017-08-10,3,D7,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,large hole in trap,NA
+HISHRU,high,2017-08-10,3,D10,S,876,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,75,70,NA,NA
+HISHRU,high,2017-08-10,3,G2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,trap on side,NA
+HISHRU,high,2017-08-10,3,G5,L,374,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,81,79,NA,NA
+HISHRU,high,2017-08-10,3,J10,L,709,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,72,62,NA,NA
+HISHRU,high,2017-08-10,3,I2,S,804,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,80,68,NA,NA
+HISHRU,high,2017-08-10,3,I7,L,718,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,82,72,NA,NA
+HISHRU,high,2017-08-10,3,H2,S,368,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,17,75,60,NA,NA
+HISHRU,high,2017-08-10,3,H5,S,821,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,78,75,NA,NA
+HISHRU,high,2017-08-10,3,H4,L,034,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,21,80,61,4 pinkies left in trap,NA
+HISHRU,high,2017-08-10,3,H6,L,710,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,80,68,dead,KING-006
+HISHRU,high,2017-08-10,3,H8,S,147,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,85,70,NA,NA
+HISHRU,high,2017-08-10,3,A9,L,134,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,17,85,74,NA,NA
+HISHRU,high,2017-08-10,3,A8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+HISHRU,high,2017-08-10,3,A6,S,725,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,14,81,66,NA,NA
+HISHRU,high,2017-08-10,3,A4,S,186,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,82,64,NA,NA
+HISHRU,high,2017-08-10,3,A3,L,132,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,76,69,NA,NA
+HISHRU,high,2017-08-10,3,A1,L,719,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,N,Y,66,NA,NA,NA,NA
+HISHRU,high,2017-08-10,3,B2,L,817,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,88,63,NA,NA
+HISHRU,high,2017-08-10,3,C8,S,806,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,90,78,NA,NA
+HISHRU,high,2017-08-10,3,C3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by juvenile flycatcher,NA
+HISQUE,high,2017-08-01,1,G3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,G4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,G5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,H5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,J10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,J9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,J7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,J6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,A6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-01,1,H4,S,003,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,86,75,NA,NA
+HISQUE,high,2017-08-01,1,G8,S,KING-075,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,NA,82,79,dead,KING-075
+HISQUE,high,2017-08-01,1,I4,S,KING-093,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,NA,90,76,dead,KING-093
+HISQUE,high,2017-08-01,1,B8,S,039,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,91,75,NA,NA
+HISQUE,high,2017-08-01,1,A9,S,199,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,14,84,71,NA,NA
+HISQUE,high,2017-08-01,1,D9,L,212,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,75,64,NA,NA
+HISQUE,high,2017-08-01,1,F10,S,476,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,75,66,NA,NA
+HISQUE,high,2017-08-01,1,D2,S,KING-085,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,NA,79,78,dead,KING-085
+HISQUE,high,2017-08-01,1,D3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-01,1,D5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-01,1,F1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-01,1,F3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-01,1,F4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,A1,S,195,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,73,69,NA,NA
+HISQUE,high,2017-08-02,2,A3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-02,2,A4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,probably sprung by bear,NA
+HISQUE,high,2017-08-02,2,C8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,C5,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,E4,L,198,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,85,75,NA,NA
+HISQUE,high,2017-08-02,2,E6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,E9,S,476,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,82,65,NA,NA
+HISQUE,high,2017-08-02,2,J2,S,206,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,65,68,NA,NA
+HISQUE,high,2017-08-02,2,I10,L,208,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,21,67,66,NA,NA
+HISQUE,high,2017-08-02,2,H8,S,212,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,75,69,NA,NA
+HISQUE,high,2017-08-02,2,F1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,F2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,F3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,F4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,F5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-02,2,F10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,A6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,A7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,on side; disturbed,NA
+HISQUE,high,2017-08-03,3,B10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,B9,L,199,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,77,72,slightly scrotal,NA
+HISQUE,high,2017-08-03,3,B6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,C2,L,198,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,81,76,NA,NA
+HISQUE,high,2017-08-03,3,C7,S,196,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,80,70,very scrotal,NA
+HISQUE,high,2017-08-03,3,C10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,D9,L,039,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,89,76,NA,NA
+HISQUE,high,2017-08-03,3,E3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,E9,S,476,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,NA,67,mouse escaped during length recording,NA
+HISQUE,high,2017-08-03,3,G10,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,F8,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,F3,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,F1,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HISQUE,high,2017-08-03,3,J4,S,206,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,75,67,NA,NA
+HISQUE,high,2017-08-03,3,H5,L,003,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,68,69,NA,NA
+HISQUE,high,2017-08-03,3,H8,S,212,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,80,75,NA,NA
+HITEDD,high,2017-07-18,1,J2,S,343,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,75,70,huge ears; check species,NA
+HITEDD,high,2017-07-18,1,J4,S,484,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,13,70,61,NA,NA
+HITEDD,high,2017-07-18,1,J5,L,077,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,73,61,NA,NA
+HITEDD,high,2017-07-18,1,J6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-18,1,J7,L,346,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,80,75,NA,NA
+HITEDD,high,2017-07-18,1,I10,S,203,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,NA,N,12,83,72,NA,NA
+HITEDD,high,2017-07-18,1,I9,L,225,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,88,75,NA,NA
+HITEDD,high,2017-07-18,1,H1,L,204,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,79,66,NA,NA
+HITEDD,high,2017-07-18,1,C10,L,NA,SPRU,NA,NA,NA,A,F,P,N,NA,NA,NA,3 pinkies in hot trap; not processed to allow mouse to save offspring,NA
+HITEDD,high,2017-07-18,1,C2,L,207,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,NA,76,68,NA,NA
+HITEDD,high,2017-07-18,1,E10,L,210,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,13,76,61,NA,NA
+HITEDD,high,2017-07-18,1,D3,L,201,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,76,68,NA,NA
+HITEDD,high,2017-07-18,1,G4,L,223,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,75,69,ripped first ear tag out,NA
+HITEDD,high,2017-07-18,1,A9,S,342,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,27,75,68,NA,NA
+HITEDD,high,2017-07-18,1,A10,L,340,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,22,77,75,NA,NA
+HITEDD,high,2017-07-18,1,B7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-18,1,C8,L,347,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,21,70,74,NA,NA
+HITEDD,high,2017-07-18,1,F2,S,213,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,15,68,61,NA,NA
+HITEDD,high,2017-07-18,1,D2,S,220,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,68,65,NA,NA
+HITEDD,high,2017-07-18,1,D10,S,205,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,15,74,71,NA,NA
+HITEDD,high,2017-07-18,1,F5,L,480,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,17,71,65,NA,NA
+HITEDD,high,2017-07-19,2,J5,L,343,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,86,75,NA,NA
+HITEDD,high,2017-07-19,2,J6,S,077,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,NA,NA,NA,escaped,NA
+HITEDD,high,2017-07-19,2,J8,S,346,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,81,73,NA,NA
+HITEDD,high,2017-07-19,2,G6,L,205,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,77,71,NA,NA
+HITEDD,high,2017-07-19,2,G4,L,449,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,85,72,NA,NA
+HITEDD,high,2017-07-19,2,H1,L,201,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,73,65,very pregnant,NA
+HITEDD,high,2017-07-19,2,J2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-19,2,J9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-19,2,H2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-19,2,H7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-19,2,F1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-19,2,F10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HITEDD,high,2017-07-19,2,A8,L,445,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,73,69,NA,NA
+HITEDD,high,2017-07-19,2,A10,L,342,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,NA,NA,NA,Had pinkies; placed off of A-line,NA
+HITEDD,high,2017-07-19,2,B10,S,340,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,78,74,NA,NA
+HITEDD,high,2017-07-19,2,C1,S,450,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,20,75,71,NA,NA
+HITEDD,high,2017-07-19,2,C10,L,443,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,16,76,66,NA,NA
+HITEDD,high,2017-07-19,2,E10,L,KING-023,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,NA,NA,NA,dead,KING-023
+HITEDD,high,2017-07-19,2,F2,S,207,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,70,68,NA,NA
+HITEDD,high,2017-07-19,2,F5,L,480,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,17,72,66,NA,NA
+HITEDD,high,2017-07-19,2,F8,S,225,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,26,88,75,NA,NA
+HITEDD,high,2017-07-20,3,J9,L,486,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,80,74,NA,NA
+HITEDD,high,2017-07-20,3,J6,S,077,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,21,73,65,NA,NA
+HITEDD,high,2017-07-20,3,J5,L,343,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,79,71,NA,NA
+HITEDD,high,2017-07-20,3,J2,S,223,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,89,70,NA,NA
+HITEDD,high,2017-07-20,3,I9,L,346,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,73,72,Huge ears; check guide; changed to PEMA from prev. captures,NA
+HITEDD,high,2017-07-20,3,I7,L,065,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,85,72,NA,NA
+HITEDD,high,2017-07-20,3,I6,S,073,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,77,70,NA,NA
+HITEDD,high,2017-07-20,3,I1,L,204,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,26,73,61,very fat,NA
+HITEDD,high,2017-07-20,3,H6,S,NA,SPRU,NA,NA,NA,A,F,P,NA,30,NA,NA,ecaped,NA
+HITEDD,high,2017-07-20,3,H10,S,203,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,NA,Y,18,79,71,NA,NA
+HITEDD,high,2017-07-20,3,G5,S,449,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,23,79,68,NA,NA
+HITEDD,high,2017-07-20,3,G6,L,205,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,79,76,NA,NA
+HITEDD,high,2017-07-20,3,A6,L,445,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,73,69,NA,NA
+HITEDD,high,2017-07-20,3,A8,L,347,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,77,74,NA,NA
+HITEDD,high,2017-07-20,3,B9,L,342,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,72,68,NA,NA
+HITEDD,high,2017-07-20,3,B4,S,446,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,22,74,69,NA,NA
+HITEDD,high,2017-07-20,3,C10,S,443,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,17,72,66,NA,NA
+HITEDD,high,2017-07-20,3,D5,L,201,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,75,70,NA,NA
+HITEDD,high,2017-07-20,3,G4,L,480,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,20,74,68,NA,NA
+HIWALK,high,2017-07-11,1,D10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,G3,L,412,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,64,NA,NA
+HIWALK,high,2017-07-11,1,F9,S,115,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,79,70,NA,NA
+HIWALK,high,2017-07-11,1,E7,L,107,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,89,70,early pregnancy,NA
+HIWALK,high,2017-07-11,1,H7,S,408,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,35,89,61,NA,NA
+HIWALK,high,2017-07-11,1,F3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,F6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,C3,L,105,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,17,86,73,NA,NA
+HIWALK,high,2017-07-11,1,F8,L,106,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,13,78,60,NA,NA
+HIWALK,high,2017-07-11,1,I10,S,001,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,25,90,80,NA,NA
+HIWALK,high,2017-07-11,1,I7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,I1,L,043,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,72,NA,NA
+HIWALK,high,2017-07-11,1,J8,L,187,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,73,71,NA,NA
+HIWALK,high,2017-07-11,1,G9,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,G4,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,H1,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,H4,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,H10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-11,1,H3,S,194,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,79,75,NA,NA
+HIWALK,high,2017-07-11,1,C7,L,015,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,76,74,NA,NA
+HIWALK,high,2017-07-11,1,B9,S,200,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,27,86,79,very pregnant,NA
+HIWALK,high,2017-07-12,2,J9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-12,2,J3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-12,2,I8,S,408,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,72,61,NA,NA
+HIWALK,high,2017-07-12,2,H10,L,401,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,28,70,63,NA,NA
+HIWALK,high,2017-07-12,2,H6,L,412,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,69,60,NA,NA
+HIWALK,high,2017-07-12,2,A5,L,105,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,17,79,75,NA,NA
+HIWALK,high,2017-07-12,2,C10,S,115,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,78,76,NA,NA
+HIWALK,high,2017-07-12,2,C9,L,200,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,30,83,79,very pregnant,NA
+HIWALK,high,2017-07-12,2,C8,S,106,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,67,59,early pregnancy,NA
+HIWALK,high,2017-07-12,2,C6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-12,2,D1,S,178,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,80,78,NA,NA
+HIWALK,high,2017-07-12,2,D6,L,107,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,75,70,early pregnancy,NA
+HIWALK,high,2017-07-12,2,D7,S,015,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,81,78,NA,NA
+HIWALK,high,2017-07-12,2,D9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-13,3,J10,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,trap sprung but door jammed open,NA
+HIWALK,high,2017-07-13,3,I8,S,408,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,82,61,already had 1 brood,NA
+HIWALK,high,2017-07-13,3,H10,L,001,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,84,80,NA,NA
+HIWALK,high,2017-07-13,3,H2,L,190,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,78,68,NA,NA
+HIWALK,high,2017-07-13,3,G3,L,194,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,20,82,75,NA,NA
+HIWALK,high,2017-07-13,3,F5,S,037,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,71,61,NA,NA
+HIWALK,high,2017-07-13,3,E5,L,107,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,75,71,NA,NA
+HIWALK,high,2017-07-13,3,B8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-13,3,B9,S,015,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,80,76,two mice in same trap,NA
+HIWALK,high,2017-07-13,3,B9,S,115,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,82,76,two mice in same trap,NA
+HIWALK,high,2017-07-13,3,B10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+HIWALK,high,2017-07-13,3,D3,S,120,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,81,75,NA,NA
+HIWALK,high,2017-07-13,3,D6,L,412,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,70,62,NA,NA
+HIWALK,high,2017-07-13,3,D9,S,200,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,NA,NA,gave birth to 1 pinkie while in hand and escaped; pinkie dispatched,NA
+MIXBUS,mod,2017-07-25,1,B8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tilted upward/off ground,NA
+MIXBUS,mod,2017-07-25,1,B4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tilted off ground,NA
+MIXBUS,mod,2017-07-25,1,B2,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,B1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,D10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,rolled; possibly bit; still functional,NA
+MIXBUS,mod,2017-07-25,1,D6,L,309,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,N,525,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,D3,S,500,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,22,73,65,NA,NA
+MIXBUS,mod,2017-07-25,1,D2,L,349,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,N,54,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,E5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,F3,S,334,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,11,66,59,NA,NA
+MIXBUS,mod,2017-07-25,1,G4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle blocked by beetles,NA
+MIXBUS,mod,2017-07-25,1,J2,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,J4,L,322,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,S,F,N,N,57,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,J5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped; very likely TAQU,NA
+MIXBUS,mod,2017-07-25,1,J6,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,J9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,J10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,N,9,NA,NA,escaped,NA
+MIXBUS,mod,2017-07-25,1,I8,S,165,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,10,62,66,check lengths if recaptured,NA
+MIXBUS,mod,2017-07-25,1,I6,S,316,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,N,100,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,I5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wasn't set after prebaiting,NA
+MIXBUS,mod,2017-07-25,1,I1,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-25,1,H1,S,246,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,11,64,61,NA,NA
+MIXBUS,mod,2017-07-25,1,H6,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-26,2,A5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle stuck,NA
+MIXBUS,mod,2017-07-26,2,A8,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-26,2,B9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle stuck with 6 beetles,NA
+MIXBUS,mod,2017-07-26,2,B7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-26,2,B6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUS,mod,2017-07-26,2,C2,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,replace trap,NA
+MIXBUS,mod,2017-07-26,2,D3,S,241,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,9,NA,NA,escaped; blind in one eye,NA
+MIXBUS,mod,2017-07-26,2,E1,L,349,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,N,56,NA,NA,NA,NA
+MIXBUS,mod,2017-07-26,2,F3,S,226,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,64,57,NA,NA
+MIXBUS,mod,2017-07-26,2,J4,L,494,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,N,88,NA,NA,NA,NA
+MIXBUS,mod,2017-07-26,2,J6,L,288,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,4,55,45,tagged right ear; very small,NA
+MIXBUS,mod,2017-07-26,2,J7,S,499,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,73,68,NA,NA
+MIXBUS,mod,2017-07-26,2,J10,L,328,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,9,54,45,NA,NA
+MIXBUS,mod,2017-07-26,2,F2,L,389,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,78,62,NA,NA
+MIXBUS,mod,2017-07-26,2,E3,L,309,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,Y,555,NA,NA,NA,NA
+MIXBUS,mod,2017-07-27,3,A8,S,230,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,N,89,NA,NA,NA,NA
+MIXBUS,mod,2017-07-27,3,A10,S,247,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,S,M,N,N,43,NA,NA,NA,NA
+MIXBUS,mod,2017-07-27,3,C7,L,309,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,Y,525,NA,NA,NA,NA
+MIXBUS,mod,2017-07-27,3,C10,S,303,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,S,F,N,N,46,NA,NA,right ear tagged,NA
+MIXBUS,mod,2017-07-27,3,D3,S,241,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,16,46,NA,blind mouse from earlier,NA
+MIXBUS,mod,2017-07-27,3,J3,S,499,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,72,66,NA,NA
+MIXBUS,mod,2017-07-27,3,J5,S,298,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,77,71,NA,NA
+MIXBUS,mod,2017-07-27,3,J6,L,328,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,7,55,45,NA,NA
+MIXBUS,mod,2017-07-27,3,J8,L,495,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,74,65,NA,NA
+MIXBUS,mod,2017-07-27,3,J10,L,498,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,75,64,NA,NA
+MIXBUS,mod,2017-07-27,3,I7,L,494,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,T,Y,91,NA,NA,NA,NA
+MIXBUS,mod,2017-07-27,3,F10,L,493,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,M,N,N,59,NA,NA,NA,NA
+MIXBUT,mod,2017-06-27,1,C4,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-27,1,B7,S,250058,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,26,85,61,NA,NA
+MIXBUT,mod,2017-06-27,1,C5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-27,1,C10,S,890090,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,27,71,63,NA,NA
+MIXBUT,mod,2017-06-27,1,D1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,N,67,NA,NA,escaped from bag while measuring weight,NA
+MIXBUT,mod,2017-06-27,1,J6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-27,1,J8,L,097090,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,27,80,75,NA,NA
+MIXBUT,mod,2017-06-27,1,H2,L,074079,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,85,60,NA,NA
+MIXBUT,mod,2017-06-27,1,J10,L,070078,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,17,72,64,NA,NA
+MIXBUT,mod,2017-06-27,1,I5,L,083076,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,13,71,61,NA,NA
+MIXBUT,mod,2017-06-27,1,H10,L,059087,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,74,74,NA,NA
+MIXBUT,mod,2017-06-28,2,A2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,D1,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,D2,L,250058,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,16,65,63,NA,NA
+MIXBUT,mod,2017-06-28,2,F2,L,097090,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,NA,78,75,3 pinkies in trap; still in labor,NA
+MIXBUT,mod,2017-06-28,2,E2,S,160175,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,65,57,NA,NA
+MIXBUT,mod,2017-06-28,2,E4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,F6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,F8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,G1,L,074079,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,75,52,NA,NA
+MIXBUT,mod,2017-06-28,2,G2,S,055071,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,P,N,510,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,J2,L,890090,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,65,57,NA,NA
+MIXBUT,mod,2017-06-28,2,I10,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,I9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,I8,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-28,2,I2,S,059087,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,83,67,NA,NA
+MIXBUT,mod,2017-06-28,2,F4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,D1,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,D2,L,081091,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,L,N,79,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,D3,S,097090,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,21,70,69,NA,NA
+MIXBUT,mod,2017-06-29,3,E9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,E7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,E5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,F3,S,056075,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,72,57,NA,NA
+MIXBUT,mod,2017-06-29,3,J7,S,095063,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,75,61,NA,NA
+MIXBUT,mod,2017-06-29,3,J9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,I3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,I2,S,890090,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,71,61,NA,NA
+MIXBUT,mod,2017-06-29,3,H1,S,059087,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,83,73,NA,NA
+MIXBUT,mod,2017-06-29,3,H2,L,074079,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,88,60,NA,NA
+MIXBUT,mod,2017-06-29,3,H3,S,250058,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,20,84,64,NA,NA
+MIXBUT,mod,2017-06-29,3,A3,L,160175,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,68,63,NA,NA
+MIXBUT,mod,2017-06-29,3,A6,S,156429,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,64,67,NA,NA
+MIXBUT,mod,2017-06-29,3,B1,S,435437,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,70,68,NA,NA
+MIXBUT,mod,2017-06-29,3,C2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXBUT,mod,2017-06-29,3,C4,S,444170,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,13,61,60,NA,NA
+MIXDP2,mod,2017-08-01,1,A3,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,prebaited; but no fluff added and treadle not set,NA
+MIXDP2,mod,2017-08-01,1,E1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,trap replaced,NA
+MIXDP2,mod,2017-08-01,1,I2,S,173,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,74,65,really bad tag; ripped out the first time,NA
+MIXDP2,mod,2017-08-01,1,J2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,N,NA,NA,NA,escaped,NA
+MIXDP2,mod,2017-08-01,1,I7,S,130,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,13,85,69,NA,NA
+MIXDP2,mod,2017-08-01,1,J3,S,306,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,89,73,NA,NA
+MIXDP2,mod,2017-08-01,1,J5,S,127,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,M,T,N,130,NA,NA,ripped ear; put into right ear,NA
+MIXDP2,mod,2017-08-02,2,A8,S,319,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,83,74,NA,NA
+MIXDP2,mod,2017-08-02,2,D2,L,306,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,26,93,72,NA,NA
+MIXDP2,mod,2017-08-02,2,I10,L,KING-072,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,S,F,N,N,NA,NA,NA,dead; double check at camp,KING-072
+MIXDP2,mod,2017-08-02,2,J1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,Y,15,NA,NA,escaped before reading tag number,NA
+MIXDP2,mod,2017-08-02,2,J5,S,127,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,M,T,Y,120,NA,NA,NA,NA
+MIXDP2,mod,2017-08-02,2,F8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXDP2,mod,2017-08-03,3,D8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXDP2,mod,2017-08-03,3,J3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXDP2,mod,2017-08-03,3,H9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXDP2,mod,2017-08-03,3,J5,S,127,NEFU,Neotoma fuscipes,N. fuscipes,Cricetidae,A,M,T,Y,119,NA,NA,NA,NA
+MIXDP2,mod,2017-08-03,3,J2,L,306,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,82,71,NA,NA
+MIXDP2,mod,2017-08-03,3,I2,S,143,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,15,70,65,ripped ear during ear tag; tagged right ear,NA
+MIXMID,mod,2017-08-23,1,A4,S,708,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,79,69,NA,NA
+MIXMID,mod,2017-08-23,1,B6,L,835,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,90,74,NA,NA
+MIXMID,mod,2017-08-23,1,C1,L,370,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,15,83,72,NA,NA
+MIXMID,mod,2017-08-23,1,C10,S,834,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,84,72,NA,NA
+MIXMID,mod,2017-08-23,1,D6,L,836,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,24,88,71,soon to give birth,NA
+MIXMID,mod,2017-08-23,1,E1,S,711,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,86,74,NA,NA
+MIXMID,mod,2017-08-23,1,J4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMID,mod,2017-08-23,1,I9,L,900B,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,12,65,63,NA,NA
+MIXMID,mod,2017-08-23,1,I2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+MIXMID,mod,2017-08-23,1,H1,S,738,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,65,55,NA,NA
+MIXMID,mod,2017-08-23,1,F3,S,737,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,80,66,NA,NA
+MIXMID,mod,2017-08-24,2,J2,L,849,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,82,67,NA,NA
+MIXMID,mod,2017-08-24,2,I9,L,831,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,13,74,63,NA,NA
+MIXMID,mod,2017-08-24,2,I8,S,841,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,86,70,NA,NA
+MIXMID,mod,2017-08-24,2,I6,S,840,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,17,85,78,NA,NA
+MIXMID,mod,2017-08-24,2,I2,S,738,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,75,49,tail looked like it had been snapped in trap; thus it is shorter,NA
+MIXMID,mod,2017-08-24,2,H1,S,737,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,12,85,74,NA,NA
+MIXMID,mod,2017-08-24,2,H10,L,834,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,83,66,NA,NA
+MIXMID,mod,2017-08-24,2,A4,S,952,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,70,66,NA,NA
+MIXMID,mod,2017-08-24,2,B10,S,835,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,80,74,NA,NA
+MIXMID,mod,2017-08-24,2,B5,S,708,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,17,76,71,couldn't get mouse to straighten properly for body length,NA
+MIXMID,mod,2017-08-24,2,C1,L,370,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,76,65,NA,NA
+MIXMID,mod,2017-08-24,2,C7,L,836,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,85,74,NA,NA
+MIXMID,mod,2017-08-24,2,E2,L,711,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,84,67,NA,NA
+MIXMID,mod,2017-08-24,2,F1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMID,mod,2017-08-25,3,F3,S,952,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,76,70,NA,NA
+MIXMID,mod,2017-08-25,3,E3,S,370,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,79,69,NA,NA
+MIXMID,mod,2017-08-25,3,F5,S,738,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,79,53,cut tail from yesterday; still in pain,NA
+MIXMID,mod,2017-08-25,3,E9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMID,mod,2017-08-25,3,D10,L,834,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,81,65,weird yellow sticky discharge and will give birth soon,NA
+MIXMID,mod,2017-08-25,3,B5,S,708,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,87,72,NA,NA
+MIXMID,mod,2017-08-25,3,A9,L,741,TASE,Neotamias senex,N. senex,Sciuridae,S,M,N,N,61,NA,NA,NA,NA
+MIXMID,mod,2017-08-25,3,A7,L,835,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,78,73,NA,NA
+MIXMID,mod,2017-08-25,3,A4,S,711,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,84,68,NA,NA
+MIXMID,mod,2017-08-25,3,B10,S,836,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,78,67,NA,NA
+MIXMID,mod,2017-08-25,3,B6,L,740,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,13,79,68,NA,NA
+MIXMID,mod,2017-08-25,3,J7,S,840,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,17,79,60,NA,NA
+MIXMID,mod,2017-08-25,3,I9,L,841,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,82,69,NA,NA
+MIXMID,mod,2017-08-25,3,I8,S,813,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,12,84,76,NA,NA
+MIXMID,mod,2017-08-25,3,I3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMID,mod,2017-08-25,3,I2,S,849,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,79,65,NA,NA
+MIXMID,mod,2017-08-25,3,H1,S,737,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,12,83,70,NA,NA
+MIXMIX,mod,2017-07-11,1,B10,S,390,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,NA,NA,N,13,74,69,NA,NA
+MIXMIX,mod,2017-07-11,1,D10,S,330,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,15,73,64,NA,NA
+MIXMIX,mod,2017-07-11,1,E2,L,337,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,82,70,NA,NA
+MIXMIX,mod,2017-07-11,1,J5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-11,1,J6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-11,1,I10,L,172,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,L,N,16,64,71,NA,NA
+MIXMIX,mod,2017-07-11,1,I8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-11,1,H1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-11,1,F1,L,428,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,28,74,70,NA,NA
+MIXMIX,mod,2017-07-11,1,E10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-11,1,E7,S,442,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,N,12,67,65,NA,NA
+MIXMIX,mod,2017-07-12,2,A10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-12,2,C10,L,390,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,NA,NA,Y,18,63,69,NA,NA
+MIXMIX,mod,2017-07-12,2,E3,S,337,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,75,68,NA,NA
+MIXMIX,mod,2017-07-12,2,J5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-12,2,J7,L,384,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,17,72,64,NA,NA
+MIXMIX,mod,2017-07-12,2,H1,L,428,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,28,77,69,NA,NA
+MIXMIX,mod,2017-07-12,2,H5,L,442,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,N,Y,12,66,62,NA,NA
+MIXMIX,mod,2017-07-12,2,G3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,A3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,C10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,D6,S,442,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,12,63,64,NA,NA
+MIXMIX,mod,2017-07-13,3,I10,L,044,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,63,64,NA,NA
+MIXMIX,mod,2017-07-13,3,I3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,I2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,I1,S,428,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,20,70,69,NA,NA
+MIXMIX,mod,2017-07-13,3,H1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,H4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMIX,mod,2017-07-13,3,E10,L,NA,SPRU,NA,NA,NA,A,F,L,N,NA,NA,NA,pinkies in trap; placed 5m off grid,NA
+MIXMIX,mod,2017-07-13,3,E2,L,337,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,23,75,69,NA,NA
+MIXMOR,mod,2017-08-15,1,A5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,B10,S,KING-094,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,NA,NA,N,NA,NA,NA,unsure on sex,KING-094
+MIXMOR,mod,2017-08-15,1,A8,L,404,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,L,N,567,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,B7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,B3,S,CLIP-11,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,S,F,N,N,3,NA,NA,cut hair near right arm,NA
+MIXMOR,mod,2017-08-15,1,D2,S,724,TASE,Neotamias senex,N. senex,Sciuridae,S,M,N,N,64,NA,NA,tail looked damaged from trap,NA
+MIXMOR,mod,2017-08-15,1,C6,L,716,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,NA,N,16,80,72,NA,NA
+MIXMOR,mod,2017-08-15,1,C7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,D10,S,712,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,76,68,NA,NA
+MIXMOR,mod,2017-08-15,1,D8,S,713,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,81,64,NA,NA
+MIXMOR,mod,2017-08-15,1,E1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,E8,L,041040,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,75,61,testicular,NA
+MIXMOR,mod,2017-08-15,1,E10,L,703,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,84,63,NA,NA
+MIXMOR,mod,2017-08-15,1,F9,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,half of a squirrel tail in trap,NA
+MIXMOR,mod,2017-08-15,1,F8,S,707,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,87,63,NA,NA
+MIXMOR,mod,2017-08-15,1,F4,L,CLIP-12,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,M,T,N,4,NA,NA,could smell that it stinks,NA
+MIXMOR,mod,2017-08-15,1,F2,S,706,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,20,88,76,NA,NA
+MIXMOR,mod,2017-08-15,1,H10,S,715,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,NA,N,575,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,J10,L,315,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,N,62,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,J4,L,313,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,16,69,80,NA,NA
+MIXMOR,mod,2017-08-15,1,J2,L,310,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,85,70,NA,NA
+MIXMOR,mod,2017-08-15,1,J1,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,I1,S,323,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,79,71,NA,NA
+MIXMOR,mod,2017-08-15,1,H1,L,NA,SPRU,NA,NA,NA,A,F,P,N,55,NA,NA,escaped without ear tag,NA
+MIXMOR,mod,2017-08-15,1,H2,S,032,TASE,Neotamias senex,N. senex,Sciuridae,A,F,L,N,68,NA,NA,has right ear tag ripped out; old heald infection from left ear tag,NA
+MIXMOR,mod,2017-08-15,1,H6,S,324,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,NA,N,15,72,62,NA,NA
+MIXMOR,mod,2017-08-15,1,H9,L,247B,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,80,65,NA,NA
+MIXMOR,mod,2017-08-15,1,G10,L,245,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,P,N,17,75,75,bad tag; looked like PEMA but had huge tail; recheck measure,NA
+MIXMOR,mod,2017-08-15,1,G9,S,249,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,N,67,NA,NA,NA,NA
+MIXMOR,mod,2017-08-15,1,G6,L,311,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,78,71,NA,NA
+MIXMOR,mod,2017-08-15,1,G1,S,232,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,15,70,59,NA,NA
+MIXMOR,mod,2017-08-16,2,A2,L,671,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,70,77,NA,NA
+MIXMOR,mod,2017-08-16,2,A5,S,009046,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,75,68,NA,NA
+MIXMOR,mod,2017-08-16,2,A10,L,287,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,P,N,268,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,C10,L,491,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,NA,NA,N,245,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,C7,S,665,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,79,67,NA,NA
+MIXMOR,mod,2017-08-16,2,C3,L,385,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,76,70,NA,NA
+MIXMOR,mod,2017-08-16,2,E8,L,041040,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,68,62,NA,NA
+MIXMOR,mod,2017-08-16,2,E9,S,703,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,82,62,NA,NA
+MIXMOR,mod,2017-08-16,2,E10,L,659,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,79,67,NA,NA
+MIXMOR,mod,2017-08-16,2,H9,L,310,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,23,85,71,NA,NA
+MIXMOR,mod,2017-08-16,2,H6,S,324,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,NA,Y,13,79,57,NA,NA
+MIXMOR,mod,2017-08-16,2,H3,L,668,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,20,81,72,NA,NA
+MIXMOR,mod,2017-08-16,2,H1,L,232,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,11,68,57,NA,NA
+MIXMOR,mod,2017-08-16,2,I3,S,NA,SPRU,NA,NA,NA,A,F,P,Y,NA,NA,NA,gave birth in trap; mouse,NA
+MIXMOR,mod,2017-08-16,2,I5,S,286,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,76,76,NA,NA
+MIXMOR,mod,2017-08-16,2,I6,L,249,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,Y,70,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,I7,S,101,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,N,254,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,I9,S,089,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,N,242,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,J9,L,423,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,14,71,66,NA,NA
+MIXMOR,mod,2017-08-16,2,B5,S,414,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,14,65,66,NA,NA
+MIXMOR,mod,2017-08-16,2,B7,L,712,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,17,70,66,NA,NA
+MIXMOR,mod,2017-08-16,2,B9,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tail,NA
+MIXMOR,mod,2017-08-16,2,D8,S,311,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,68,70,NA,NA
+MIXMOR,mod,2017-08-16,2,D7,L,713,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,20,70,64,NA,NA
+MIXMOR,mod,2017-08-16,2,F2,S,706,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,19,80,76,NA,NA
+MIXMOR,mod,2017-08-16,2,F9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,G10,L,245,PEBO,Peromyscus boylii,P. boylii,Cricetidae,A,F,L,Y,18,70,74,NA,NA
+MIXMOR,mod,2017-08-16,2,G8,L,707,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,72,66,NA,NA
+MIXMOR,mod,2017-08-16,2,G4,L,479,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,N,65,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,J3,L,032,TASE,Neotamias senex,N. senex,Sciuridae,A,F,L,Y,75,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,J5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-16,2,J8,S,313,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,72,69,NA,NA
+MIXMOR,mod,2017-08-17,3,A2,L,671,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,18,86,79,NA,NA
+MIXMOR,mod,2017-08-17,3,A5,S,009046,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,75,68,NA,NA
+MIXMOR,mod,2017-08-17,3,A10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,C4,L,667,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,N,20,80,73,NA,NA
+MIXMOR,mod,2017-08-17,3,C6,L,674,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,14,76,69,NA,NA
+MIXMOR,mod,2017-08-17,3,C9,S,712,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,18,71,66,NA,NA
+MIXMOR,mod,2017-08-17,3,C10,L,656,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,M,N,N,300,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,E3,S,385,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,81,68,mort,KING-082
+MIXMOR,mod,2017-08-17,3,E5,S,675,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,N,55,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,E7,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,E8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped (broke zipper),NA
+MIXMOR,mod,2017-08-17,3,E10,L,703,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,83,63,NA,NA
+MIXMOR,mod,2017-08-17,3,G8,L,715,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,NA,Y,601,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,J1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,J3,L,089,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,F,N,Y,243,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,J4,S,249,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,Y,69,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,J5,L,313,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,74,70,NA,NA
+MIXMOR,mod,2017-08-17,3,J6,S,491,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,S,NA,NA,Y,243,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,J9,L,423,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,70,67,NA,NA
+MIXMOR,mod,2017-08-17,3,J10,S,400294,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,80,73,NA,NA
+MIXMOR,mod,2017-08-17,3,B4,L,716,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,M,NA,Y,21,65,71,NA,NA
+MIXMOR,mod,2017-08-17,3,B8,S,665,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,18,72,68,NA,NA
+MIXMOR,mod,2017-08-17,3,B10,S,DAY3-5,SOTR,Sorex trowbridgii,S. trowbridgii,Soricidae,A,F,P,N,6,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,B9,L,666,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,M,T,N,705,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,D7,L,713,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,17,67,65,NA,NA
+MIXMOR,mod,2017-08-17,3,D10,S,659,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,72,69,NA,NA
+MIXMOR,mod,2017-08-17,3,F1,L,724,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,Y,67,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,F4,L,232,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,Y,11,64,58,NA,NA
+MIXMOR,mod,2017-08-17,3,F6,S,311,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,69,68,NA,NA
+MIXMOR,mod,2017-08-17,3,F8,S,041040,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,68,64,NA,NA
+MIXMOR,mod,2017-08-17,3,H3,L,221,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,23,NA,NA,escaped,NA
+MIXMOR,mod,2017-08-17,3,H4,S,286,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,NA,65,72,dead,KING-054
+MIXMOR,mod,2017-08-17,3,I6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,H8,S,324,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,NA,Y,13,60,55,NA,NA
+MIXMOR,mod,2017-08-17,3,I10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,I9,S,707,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,24,79,63,NA,NA
+MIXMOR,mod,2017-08-17,3,I2,L,479,TASE,Neotamias senex,N. senex,Sciuridae,A,M,T,Y,65,NA,NA,NA,NA
+MIXMOR,mod,2017-08-17,3,I3,S,323,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,16,64,70,NA,NA
+MIXMOR,mod,2017-08-17,3,I5,S,668,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,NA,78,65,dead,KING-053
+MIXMOR,mod,2017-08-17,3,H7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,escaped,NA
+MIXRAV,mod,2017-07-04,1,D2,S,024,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,N,15,69,64,NA,NA
+MIXRAV,mod,2017-07-04,1,D5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,hole in trap<U+0085>animal probably escaped,NA
+MIXRAV,mod,2017-07-04,1,E8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle too light,NA
+MIXRAV,mod,2017-07-04,1,E2,L,005,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,75,64,NA,NA
+MIXRAV,mod,2017-07-04,1,E1,S,028,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,N,14,72,65,NA,NA
+MIXRAV,mod,2017-07-04,1,C1,S,049,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,20,74,75,NA,NA
+MIXRAV,mod,2017-07-04,1,J1,L,KING-074,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,NA,81,74,dead; heatstroke - trap in full sun,KING-074
+MIXRAV,mod,2017-07-04,1,A2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,C3,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,C6,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,G8,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,A1,S,392,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,70,61,NA,NA
+MIXRAV,mod,2017-07-04,1,A3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,N,89,NA,NA,escaped,NA
+MIXRAV,mod,2017-07-04,1,B1,L,380,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,66,61,NA,NA
+MIXRAV,mod,2017-07-04,1,B6,S,387,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,19,71,68,NA,NA
+MIXRAV,mod,2017-07-04,1,H1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,H2,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,H5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,I3,S,140,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,18,90,70,NA,NA
+MIXRAV,mod,2017-07-04,1,J2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,J5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-04,1,F3,L,367,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,22,85,68,NA,NA
+MIXRAV,mod,2017-07-05,2,A1,S,361,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,S,F,N,N,12,78,60,early pregnancy? Has bred but no big nipples,NA
+MIXRAV,mod,2017-07-05,2,A2,L,366,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,16,73,70,NA,NA
+MIXRAV,mod,2017-07-05,2,A5,S,380,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,80,62,NA,NA
+MIXRAV,mod,2017-07-05,2,A10,L,387,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,73,67,NA,NA
+MIXRAV,mod,2017-07-05,2,B1,L,148,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,N,92,NA,NA,NA,NA
+MIXRAV,mod,2017-07-05,2,J2,S,020,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,15,74,64,NA,NA
+MIXRAV,mod,2017-07-05,2,J3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-05,2,I10,L,049,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,19,79,78,post-lactacting (previous litter),NA
+MIXRAV,mod,2017-07-05,2,H7,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,treadle too tight,NA
+MIXRAV,mod,2017-07-05,2,G8,L,002,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,19,76,66,NA,NA
+MIXRAV,mod,2017-07-05,2,G3,S,367,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,23,77,67,very pregnant,NA
+MIXRAV,mod,2017-07-05,2,G2,L,140,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,83,74,NA,NA
+MIXRAV,mod,2017-07-05,2,A4,L,048,TAQU,Neotamias quadrimaculatus,N. quadrimaculatus,Sciuridae,A,F,P,N,82,NA,NA,NA,NA
+MIXRAV,mod,2017-07-05,2,E2,L,005,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,71,64,NA,NA
+MIXRAV,mod,2017-07-05,2,E9,S,285,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,12,65,71,CHECK BODY LENGTH AGAINST RECAPTURE,NA
+MIXRAV,mod,2017-07-05,2,C1,S,028,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,N,Y,15,60,65,CHECK BODY LENGTH AGAINST RECAPTURE,NA
+MIXRAV,mod,2017-07-05,2,C4,L,024,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,12,71,67,NA,NA
+MIXRAV,mod,2017-07-06,3,C4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,C5,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,C6,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,hair and feces. Perhaps squirrel,NA
+MIXRAV,mod,2017-07-06,3,C9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,B1,L,380,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,12,71,60,NA,NA
+MIXRAV,mod,2017-07-06,3,B3,L,366,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,15,71,70,NA,NA
+MIXRAV,mod,2017-07-06,3,A3,S,387,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,69,66,NA,NA
+MIXRAV,mod,2017-07-06,3,J2,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,J3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,J5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,J7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,J8,S,016358,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,18,80,65,faulty pliars - left tag not closed completely; early pregnancy,NA
+MIXRAV,mod,2017-07-06,3,I4,L,367,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,25,82,68,huge,NA
+MIXRAV,mod,2017-07-06,3,I1,S,020,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,74,64,NA,NA
+MIXRAV,mod,2017-07-06,3,H4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,trap knocked over,NA
+MIXRAV,mod,2017-07-06,3,H10,S,361,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,N,Y,12,73,57,NA,NA
+MIXRAV,mod,2017-07-06,3,G6,L,140,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,19,85,72,NA,NA
+MIXRAV,mod,2017-07-06,3,D6,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,D9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,F3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,F4,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,G4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRAV,mod,2017-07-06,3,E2,L,005,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,16,78,58,NA,NA
+MIXRAV,mod,2017-07-06,3,D2,S,049,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,23,78,72,NA,NA
+MIXRAV,mod,2017-07-06,3,D1,L,028,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,14,73,64,NA,NA
+MIXRAV,mod,2017-07-06,3,G8,L,285,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,79,66,NA,NA
+MIXRIV,mod,2017-07-18,1,B5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,very large Jerusalem cricket,NA
+MIXRIV,mod,2017-07-18,1,A8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,A10,L,455,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,11,78,69,very orange,NA
+MIXRIV,mod,2017-07-18,1,D9,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,F5,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,might have been hit by pinecone,NA
+MIXRIV,mod,2017-07-18,1,G10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,G6,L,252,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,71,66,NA,NA
+MIXRIV,mod,2017-07-18,1,J3,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,J5,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,was never set,NA
+MIXRIV,mod,2017-07-18,1,J9,L,126,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,21,NA,NA,escaped,NA
+MIXRIV,mod,2017-07-18,1,I10,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,was never set,NA
+MIXRIV,mod,2017-07-18,1,I6,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,I3,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,I2,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-18,1,H8,S,416,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,13,71,62,NA,NA
+MIXRIV,mod,2017-07-18,1,H9,L,NA,SPRU,NA,NA,NA,NA,NA,NA,N,460,NA,NA,escaped,NA
+MIXRIV,mod,2017-07-19,2,J10,L,264,TAAM,Neotamias amoenus,N. amoenus,Sciuridae,S,F,N,N,37,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,H10,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,G10,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,G8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,G2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,E6,L,252,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,24,80,68,NA,NA
+MIXRIV,mod,2017-07-19,2,B9,L,260,SPBE,Otospermophilus beecheyi,O. beecheyi,Sciuridae,A,F,L,N,430,NA,NA,got away while tagging; 260 is a bad tag; escaped,NA
+MIXRIV,mod,2017-07-19,2,C2,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,C8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXRIV,mod,2017-07-19,2,E4,L,460,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,8,77,72,NA,NA
+MIXRIV,mod,2017-07-20,3,J4,S,264,TAAM,Neotamias amoenus,N. amoenus,Sciuridae,S,F,N,Y,45,NA,NA,look at Haley's notes,NA
+MIXRIV,mod,2017-07-20,3,J10,L,416,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,13,NA,NA,NA,NA
+MIXRIV,mod,2017-07-20,3,I5,S,457,TAAM,Neotamias amoenus,N. amoenus,Sciuridae,S,F,N,N,46,NA,NA,look at Haley's notes,NA
+MIXRIV,mod,2017-07-20,3,G10,L,453,TAAM,Neotamias amoenus,N. amoenus,Sciuridae,S,M,N,N,47,NA,NA,look at Haley's notes,NA
+MIXRIV,mod,2017-07-20,3,E6,L,460,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,15,76,75,NA,NA
+MIXRIV,mod,2017-07-20,3,A10,L,455,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,72,66,NA,NA
+MIXRIV,mod,2017-07-20,3,D5,L,252,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,L,Y,18,75,67,NA,NA
+MIXWAT,mod,2017-08-08,1,A4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-08,1,B3,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-08,1,B7,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-08,1,C7,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-08,1,D7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-08,1,E4,S,474,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,17,77,70,early pregnancy,NA
+MIXWAT,mod,2017-08-08,1,F5,L,176,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,20,85,70,NA,NA
+MIXWAT,mod,2017-08-08,1,J10,S,329,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,N,17,76,70,NA,NA
+MIXWAT,mod,2017-08-08,1,J4,S,336,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,N,21,77,64,NA,NA
+MIXWAT,mod,2017-08-08,1,I3,S,278,TASE,Neotamias senex,N. senex,Sciuridae,A,F,N,N,67,NA,NA,tail tips white; greyish backside,NA
+MIXWAT,mod,2017-08-08,1,I4,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,spotted skunk; no scruff,NA
+MIXWAT,mod,2017-08-08,1,G9,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,F3,L,474,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,20,73,66,NA,NA
+MIXWAT,mod,2017-08-09,2,J8,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,J6,S,336,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,22,89,95,NA,NA
+MIXWAT,mod,2017-08-09,2,J2,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,J1,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,I10,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,H9,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,H8,S,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-09,2,H7,L,NA,MISS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-10,3,A9,S,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MIXWAT,mod,2017-08-10,3,B8,S,474,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,26,73,79,NA,NA
+MIXWAT,mod,2017-08-10,3,D8,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sprung by beetles,NA
+MIXWAT,mod,2017-08-10,3,I7,S,336,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,F,P,Y,23,81,67,NA,NA
+MIXWAT,mod,2017-08-10,3,G6,L,329,PEMA,Peromyscus maniculatus,P. maniculatus,Cricetidae,A,M,T,Y,17,76,69,NA,NA
+MIXWAT,mod,2017-08-10,3,F7,L,NA,SPRU,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

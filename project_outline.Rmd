@@ -1,0 +1,42 @@
+---
+title: 'Big Fires and Small Mammals: Project Outline'
+author: "Kate Culhane"
+date: "January 29, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###**App summary**
+
+In September-October 2014, a large human-ignited fire known as the King Fire scorched 39,545 ha in the northern Sierra Nevada, earning the distinction “mega-fire” due to its scope and intensity. Small mammal communities shifted drastically across the fire severity gradient, providing an interesting system to explore the role that these animals play in different habitats. This app will allow users to explore these relationships on their own by interacting directly with field data, and ultimately will serve as a public-friendly science communication to accompany a [hopefully] forthcoming publication.
+
+###**Data**
+
+I helped collect these data in summer 2017, three years after the King Fire. We established 27 sites within three treatments across a fire severity gradient, with nine unburned control sites (located outside the fire boundary), nine low-moderate severity sites, and nine high severity sites. There are three main datasets that I'll be working with: two that were collected in the field and one that was compiled from the literature. At this point the data are all in tidy format because I've been working on these analyses for a while!
+
+*Small mammal community:* We sampled small mammal communities within a grid of 100 traps during one session at each site. Each session consisted of three continuous trap nights (maximum of 300 available traps per site). Captured small mammals were identified to species and marked with unique ear tags in order to track individuals across the 3-day period. Each mammal’s mass, sex, age, and reproductive status were recorded. Trap condition was also noted as a measure of the number of traps actually available for capturing small mammals. The full dataset has 1466 observations, with an separate observation for each capture or sprung/broken trap. In total, we captured 545 individuals of 11 species of mammals.
+
+*Habitat measurements:* Vegetation cover and volume were surveyed along two 50-m transects at each of the 27 sites. Percent cover for several plant and substrate types (dominant forb species, all other forbs, grasses, shrub species, tree species, woody litter, char, soft loose litter, soft rooted litter, rocks, bare ground, and other) was estimated within 1-m^2^ quadrats located every 5 m along the transect (10 quadrats per transect). For each cover type, we also recorded the median and maximum height in order to calculate an estimate of volume and biomass. The species and dimensions of trees, shrubs, and coarse woody debris were also surveyed within bands along the same 50-m vegetation transects. These data are in several disparate datasets, but I've calculated several useful metrics for each of the 27 sites and compiled them into a single data frame: tree mortality, vegetation biomass (for trees, shrubs, grasses, and forbs), vegetation ground cover, volume of coarse woody debris, vegetation diversity (for trees, shrubs, and dominant forbs).
+
+*Small mammal functional traits:* This dataset has quantifies four ecologically relevant traits for each of the 11 species: body size, diet, foraging mode, and activity time. Body size measurements were calculated as the average mass from field measurements, but the rest of the data were collated from two field guides as well as species accounts from the American Society of Mammalogists. Diet is split into six columns with the proportion for each of six diet items (seeds, fruits, other vegetation, fungi, invertebrates, and vertebrates). Activity time is a categorical variable (nocturnal, diurnal, or cathemeral). Foraging mode is split into two variables indicating to what extent the mammal is a) arboreal and b) fossorial.
+
+###**Widgets and outputs**
+
+*Tab 1 - The 'King' of mega-fires:* This tab will mainly give information about the King Fire, but it will also have a widget for exploring differences between the three fire severities. The user will be able to select a fire severity using radio buttons (unburned, low-moderate, high). Based on the selected fire severity, a summary table will update to show several habitat characteristics, averaged across sites: tree mortality, vegetation biomass (for trees, shrubs, grasses, and forbs), vegetation ground cover, volume of coarse woody debris, vegetation diversity (for trees, shrubs, and dominant forbs). There will also be a map of the King Fire that displays the sites for the corresponding fire severity according to which severity is selected.
+
+*Tab 2 - Meet the mammals!* The user will be able to select one of the mammals (11 total species) using a widget with radio buttons. Based on the selection, a few outputs will change:
+
+- General information: a 'table' (pared down so that it's functionally just text) will display some summary information about the mammal: a quick morphological description, its taxonomy (order, family, genus, species), and its functional characteristics (body mass, activity time, and foraging mode).
+- Diet: a pie chart will display the proportions of what the mammals eats out of six diet categories: seeds, fruits, other vegetation, fungi, invertebrates, and vertebrates.
+- Range: a map of the fire will highlight the sites where the selected mammal was captured. Sites will be color-coded according to fire severity.
+- Habitat preference: a bar chart will display the mean number of individuals of the selected species that were found in each fire severity (averaged across sites).
+- If it's possible, a picture of the mammal will show up!
+
+*Tab 3 - Measuring diversity:* This tab will allow the user to directly manipulate abundances of the 11 species in order to explore the effects on three measures of diversity: species diversity (Shannon index), functional diversity, and phylogenetic diversity. The sidebar will have a series of slider widgets that allow the user to choose the abundance (number of individuals) seperately for each of the 11 species. The output will be a bar chart that shows the value for the three diversity metrics. For comparison, this graph will be displayed next to static graphs with the average diversity metrics for each of the three fire severities. In addition, three action button widgets (one for each fire severity) will allow the user to automatically set the species slider bars to the average abundances for each fire severity, to use as a starting point for manipulations.
+
+*PERHAPS...Tab 4 - Visualizing community composition:* If it turns out to be interesting, this tab will display an interactive NMDS ordination plot that shows variation in small mammal community composition across the fire severity gradiet, with habitat variables plotted as vectors. It won't have a widget, but the user will be able to mouse over the points on the graph to learn more about each specific observation.

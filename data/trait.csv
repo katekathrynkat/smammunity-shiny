@@ -1,0 +1,12 @@
+species,body_mass,activity,seeds,fruits,veg,fungi,inverts,verts,arboreal,fossorial
+GLSA,137.53,nocturnal,10,0,20,60,5,5,2,0
+NEFU,213.26,nocturnal,5,5,85,5,0,0,2,0
+PEBO,23.9,nocturnal,40,25,0,5,25,5,2,0
+PEMA,19.98,nocturnal,40,25,0,10,25,0,2,0
+PETR,27,nocturnal,50,30,5,5,10,0,1,0
+REME,10.72,nocturnal,80,0,5,0,15,0,1,0
+SOTR,5.02,cathemeral,10,0,0,5,85,0,0,2
+SPBE,597.82,diurnal,30,10,40,0,10,10,0,2
+TAAM,50.63,diurnal,65,5,5,10,10,5,2,2
+TAQU,83.62,diurnal,15,5,15,60,5,0,1,2
+TASE,89.35,diurnal,10,0,5,80,5,0,0,1

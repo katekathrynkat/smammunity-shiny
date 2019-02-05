@@ -1,0 +1,28 @@
+species,common_name,binomial,family,total_length,tail_length,weight
+SPLA,Golden-mantled ground squirrel,Spermophilus lateralis,Sciuridae,245-295mm,70-120mm,175-350g
+SPBE,California ground squirrel,Otospermophilus beecheyi,Sciuridae,360-500mm,140-230mm,350-885g
+URBE,Beldings ground squirrel,Urocitellus beldingi,Sciuridae,265-295mm/270-315mm,60-75mm,230-500g/300-450g
+SCGR,Western gray squirrel,Sciurus griseus,Sciuridae,51-77cm,24-38cm,500-950g
+TADO,Douglas' squirrel,Tamiasciurus douglasii,Sciuridae,270-350mm,100-156mm,141-312g
+GLSA,Northern flying squirrel,Glaucomys sabrinus,Sciuridae,190-300mm,90-140mm,38-123g
+TAAM,Yellow-pine chipmunk,Neotamias amoenus,Sciuridae,186-238mm,72-109mm,36-50g
+TAMI,Least chipmunk,Neotamias minimus,Sciuridae,185-216mm,78-113mm,32-50g
+TAQU,Long-eared chipmunk,Neotamias quadrimaculatus,Sciuridae,230-345mm/230-239mm,90-101mm/85-100mm,81-105g/74-89g
+TASE,Allen's (Shadow) chipmunk,Neotamias senex,Sciuridae,223-281mm,94-122mm,90-120g
+TASP,Lodgepole chipmunk,Neotamias speciosus,Sciuridae,197-229mm/220-222mm,67-102mm/79-100mm,55-69g/51-61g
+NEFU,Dusky-footed woodrat,Neotoma fuscipes,Cricetidae,335-470mm,160-240mm,205-360g
+NECI,Bushy-tailed woodrat,Neotoma cinerea,Cricetidae,275-410mm/310-470mm,120-195mm/130-225mm,165-370g/180-585g
+PEMA,Deer mouse,Peromyscus maniculatus,Cricetidae,120-225mm,50-125mm,10-30g
+PEBO,Brush mouse,Peromyscus boylii,Cricetidae,175-210mm,89-115mm,22-36g
+PETR,Pinyon mouse,Peromyscus truei,Cricetidae,171-231mm,76-123mm,15-50g
+REME,Western harvest mouse,Reithrodontomys megalotis,Cricetidae,118-170mm,50-96mm,8-15g
+MILO,Long-tailed vole,Microtus longicaudus,Cricetidae,155-202mm,49-81mm,36-59g
+MIMO,Montane vole,Microtus montanus,Cricetidae,140-220mm,24-64mm,18-90g
+ZAPR,Western jumping mouse,Zapus princeps,Dipodidae,215-245mm,130-150mm,18-25g
+SOTR,Trowbridge's shrew,Sorex trowbridgii,Soricidae,104-131mm,48-59mm,3-5g
+SOVA,Vagrant shrew,Sorex vagrans,Soricidae,100-115mm,38-48mm,3-8g
+THBO,Bottas pocket gopher,Thomomys bottae,Geomyidae,150-240mm/170-280mm,55-73mm/62-92mm,80-160g/110-250g
+THMO,Mountain pocket gopher,Thomomys monticola,Geomyidae,190-227mm,55-95mm,75-105g
+SCLA,Broad-footed mole,Scapanus latimanus,Talpidae,136-193mm,21-45mm,39-55g
+LEAM,Sierra Nevada snowshoe hare,Lepus americanus tahoensis,Leporidae,42-52cm/40-44cm,3-8cm/3-8cm,0.9-2.2kg/0.9-1.7kg
+SYNU,Mountain cottontail,Sylvilagus nuttallii,Leporidae,338-390mm,30-54mm,628-687g

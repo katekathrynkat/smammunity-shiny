@@ -1,0 +1,28 @@
+region,severity,site,site.name,previous.names
+Belt,unb,GRNHOU,Houses,Green2
+Belt,unb,GRNMAS,Mastication,Green1
+Belt,unb,GRNTUR,Turn-out,Green3
+Belt,high,HICORN,Corner,
+Belt,high,HIDODD,Dodder,Snake
+Belt,high,HITEDD,Ted,Stix
+Belt,mod,MIXBUS,Bus,
+Belt,mod,MIXMIX,Mixed,
+Belt,mod,MIXMOR,Morel,
+Devil's Peak,unb,GRNCAR,Car Keys,
+Devil's Peak,unb,GRNKAN,Kanye,West
+Devil's Peak,unb,GRNWOO,Woodpile,
+Devil's Peak,high,HICOWS,Cows,
+Devil's Peak,high,HISQUE,Squeeze,
+Devil's Peak,high,HIWALK,Walk-in,
+Devil's Peak,mod,MIXDP2,DP2,
+Devil's Peak,mod,MIXMID,Middle,
+Devil's Peak,mod,MIXRAV,Ravine,
+High Meadows,unb,GRNDAM,Dam,
+High Meadows,unb,GRNQUA,Quail,North
+High Meadows,unb,GRNSNO,Snow,
+High Meadows,high,HIBADR,Bad Road,
+High Meadows,high,HICAMP,Campground,
+High Meadows,high,HISHRU,Shrub,Bat
+High Meadows,mod,MIXBUT,Butterfly,
+High Meadows,mod,MIXRIV,River Crossing,
+High Meadows,mod,MIXWAT,Waterfall,Middle Meadows
