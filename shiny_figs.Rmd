@@ -1,0 +1,207 @@
+---
+title: "Figures for Shiny App"
+author: "Kate Culhane"
+date: "February 5, 2019"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+#====================
+# Load necessary packages
+#====================
+
+# General
+
+library(tidyverse)
+
+# Spatial analysis
+
+library(sp) # vector data
+library(raster) # raster data
+library(rgdal) # input/output, projections
+library(rasterVis) # raster plots
+library(ggmap) # ggplot maps
+library(ggiraph) # interactive plots
+library(ggthemes)
+
+#====================
+# Load necessary data
+#====================
+
+# Spatial data
+
+sites_dat <- read_csv('./data/spatial/sitecoords_all_10NOV2017.csv') # csv file with coordinates for all plots from the 2017 field season
+mtbs_raster <- raster('./data/spatial/ca3878212060420140913_20130730_20150805_dnbr6.tif') # geotiff raster file from MTBS (Monitoring Trends in Burn Severity) program, showing fire severity within the King Fire boundary
+
+```
+
+
+###King Fire Map
+
+Tab 1: sites for each severity highlighted
+Tab 2: sites for each species highlighted
+
+```{r spatial data wrangling}
+
+#====================
+# Data wrangling: Site points
+#====================
+
+# Create a data frame with 1 point for the centroid of each site
+
+site_points <-  sites_dat %>% 
+  filter(type == 'Plot Corner') %>% # filter for plot corners only
+  mutate(northing = northing + 10000000, # fix the northing format
+         severity = factor(severity, levels = unique(severity))) %>% 
+  group_by(severity, site) %>%
+  summarize(x = mean(easting), # average corner coords for centroid coords
+            y = mean(northing)) # average corner coords for centroid coords
+
+# Create spatial files for sites
+
+coordinates(site_points) <- ~ x + y # turn into a spatial points data frame
+
+proj4string(site_points) <- '+proj=utm +zone=10 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs' # CRS: WGS84 / UTM zone 10S
+
+crs(mtbs_raster) # CRS for MTBS raster is NAD83 / AEA
+
+sites_aea <- spTransform(site_points, CRS('+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0
++datum=NAD83 +units=m +no_defs +ellps=GRS80 +towgs84=0,0,0 ')) # update site CRS to match mtbs CRS
+
+
+
+#====================
+# Data wrangling: Severity raster
+#====================
+
+names(mtbs_raster) <- 'severity' # rename severity variable in MTBS raster
+
+mtbs_raster[mtbs_raster$severity==0] <- NA # replace 0 (outside burn boundary) with NA
+
+```
+
+
+
+```{r}
+
+#====================
+# Create a basic map
+#====================
+
+# Vectors for colors
+
+cols <- c(colortable(mtbs_raster)[2:7]) # create vector of colors based on original raster colors (excluding values for NA)
+
+sitecols <- c('darkgreen', 'orange', 'red')
+
+# Create map using plot
+
+par(mar=c(0,0,0,0))
+plot(mtbs_raster, # plot burn severities
+     col = cols,
+     interpolate = TRUE, # smooths the colors
+     legend = FALSE, axes = FALSE, box = FALSE)
+plot(sites_aea, # plot sites
+     col = (sitecols[sites_aea$severity]), 
+     pch = 19, cex = 1.5,
+     add = TRUE)
+plot(sites_aea, # outline site points in black
+     pch = 1, col = 'black', cex = 1.5, lwd = 2,
+     add = TRUE)
+
+#====================
+# Create a map using ggmap
+#====================
+
+# Update CRS to WGS84
+
+sites_gg <- spTransform(site_points, CRS("+proj=longlat +datum=WGS84")) # transform site points
+
+sites_gg_df <- as.data.frame(sites_gg) # data frame of site points
+
+mtbs_gg <- projectRaster(mtbs_raster, crs = CRS("+proj=longlat +datum=WGS84"))
+# transform MTBS raster
+
+bbox <- make_bbox(lon = sites_gg_df$x, lat = sites_df$y, f = .05)
+
+test <- get_map(location = bbox, maptype = "satellite", source = "google")
+
+ggmap(test) +
+  geom_point(data = sites_df,
+             aes(x = x, y = y))
+
+#====================
+# Create a map using ggplot
+#====================
+
+# Coerce to data frames for ggplot
+
+sites_df <- as.data.frame(sites_aea) # data frame of site points
+
+mtbs_simple <- aggregate(mtbs_raster, fact = 5) # simplify raster by aggregating pixels
+
+mtbs_df <- as(mtbs_simple, "SpatialPixelsDataFrame") %>% # data frame of MTBS raster
+  as.data.frame(.) %>% 
+  mutate(severity2 = round(severity, 0),
+         severity2 = factor(severity2, levels = unique(severity2)))
+
+# Plot using ggplot
+
+ggplot() +  
+  geom_tile(data = mtbs_df,
+            aes(x = x, y = y, fill = severity2)) +
+  geom_point(data = sites_df,
+             aes(x = x, y = y),
+             col = 'black', size = 5) +
+  geom_point(data = sites_df,
+             aes(x = x, y = y, col = severity),
+             size = 3) +
+  scale_fill_manual(values = cols, breaks = levels(mtbs_df$severity)) +
+  scale_color_manual(values = sitecols) +
+  coord_equal() +
+  theme_map() +
+  theme(legend.position = 'none')
+
+#====================
+# Create an interative map
+#====================
+
+# Create an animated map using ggiraph
+
+map <- ggplot() +  
+  geom_tile(data = mtbs_df,
+            aes(x = x, y = y, fill = severity2)) +
+  geom_point_interactive(data = sites_df,
+                         aes(x = x, y = y, col = severity,
+                             tooltip = severity, data_id = severity),
+                         size = 3) +
+  scale_fill_manual(values = cols, breaks = levels(mtbs_df$severity)) +
+  scale_color_manual(values = sitecols) +
+  coord_equal() +
+  theme_map() +
+  theme(legend.position = 'none')
+
+girafe(code = print(map))
+
+
+# CAN USE ELEMENTS ASSOCIATED WITH SELCTIONS FROM GGIRAPH AS INPUT IN SHINY APP
+
+```
+
+
+IDEA: create map with leaflet that displays all fires within the past two decades, where you can select which fires to display by size, year, and proportion of high severity fire
+
+RESOURCES:
+https://geocompr.robinlovelace.net/adv-map.html
+http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html#ggmap-hooray
+https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ggmap/ggmapCheatsheet.pdf
+https://bhaskarvk.github.io/user2017.geodataviz/notebooks/03-Interactive-Maps.nb.html#using_ggiraph
+https://davidgohel.github.io/ggiraph/articles/offcran/using_ggiraph.html
+https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/make-maps-with-ggplot-in-R/
