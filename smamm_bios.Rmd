@@ -1,0 +1,91 @@
+---
+title: "Small Mammal Bios"
+author: "Kate Culhane"
+date: "March 5, 2019"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+# Load necessary packages
+
+library(tidyverse)
+library(kableExtra)
+
+# Load necessary data
+
+smamms <- read_csv('./data/unique_smamms.csv') # dataset with one row per unique individual
+
+bio <- read_csv('./data/smamm_bio.csv') # small mammal biographies
+
+traits <- read_csv('./data/trait.csv') # small mammal functional traits
+
+```
+
+###Table of characteristics
+
+```{r}
+
+bio %>% 
+  filter(code == 'PEMA') %>% # FILTER FOR SMAMM
+  gather(info, value, 2:7) %>% 
+  select(-code) %>% 
+  mutate(value = cell_spec(value, italic = c(FALSE, TRUE, FALSE, FALSE, FALSE, FALSE))) %>% 
+  kable(escape = FALSE,
+        col.names = c('','')) %>% 
+  kable_styling(bootstrap_options = c('condensed', 'hover'),
+                full_width = FALSE) %>% 
+  column_spec(1, bold = TRUE, width = '5cm') %>% 
+  column_spec(2, width = '6cm')
+
+```
+
+
+###Pie chart of diet
+
+```{r}
+
+diet <- traits %>% 
+  gather('diet_item', 'prop', 4:9) %>% 
+  select(code, diet_item, prop)
+
+colors <- c('darkgoldenrod3', 'cadetblue4', 'darkolivegreen4', 'navajowhite3', 'olivedrab3', 'coral3')
+names(colors) <- as.character(unique(diet$diet_item))
+labs <- c('Seeds', 'Fruits', 'Vegetation', 'Fungi', 'Invertebrates', 'Vertebrates')
+names(labs) <- as.character(unique(diet$diet_item))
+
+diet %>% 
+  filter(code == 'GLSA',
+         prop != 0) %>% 
+  arrange(-prop) %>% 
+  mutate(diet_item = factor(diet_item, levels = diet_item)) %>% 
+  arrange(prop) %>% 
+  ggplot(aes(x = code, y = prop)) +
+    geom_bar(aes(fill = diet_item),
+             stat = 'identity',
+             color = 'white',
+             lwd = 3) +
+    geom_text(aes(x = 1.6,
+                  label = paste0(prop, '%')),
+              position = position_stack(vjust = 0.5),
+              size = 4.3, fontface = 'bold') +
+    scale_fill_manual('Diet Item',
+                      values = colors,
+                      labels = labs) +
+    coord_polar(theta = 'y', start = 1) +
+    theme_minimal() +
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank(),
+          axis.text.x = element_blank(),
+          axis.text.y = element_blank())
+
+```
+

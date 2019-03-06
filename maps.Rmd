@@ -20,35 +20,29 @@ knitr::opts_chunk$set(echo = TRUE)
 # General
 
 library(tidyverse)
-
-# Spatial analysis
-
 library(sp) # vector data
 library(raster) # raster data
 library(rgdal) # input/output, projections
 library(rasterVis) # raster plots
 library(ggmap) # ggplot maps
 library(ggiraph) # interactive plots
-library(ggthemes)
-
-#====================
-# Load necessary data
-#====================
-
-# Spatial data
-
-sites_dat <- read_csv('./data/spatial/sitecoords_all_10NOV2017.csv') # csv file with coordinates for all plots from the 2017 field season
-mtbs_raster <- raster('./data/spatial/ca3878212060420140913_20130730_20150805_dnbr6.tif') # geotiff raster file from MTBS (Monitoring Trends in Burn Severity) program, showing fire severity within the King Fire boundary
+library(ggthemes) # contains ggmap theme
+library(plotly) # interactive plots
 
 ```
 
 
-###King Fire Map
+```{r}
 
-Tab 1: sites for each severity highlighted
-Tab 2: sites for each species highlighted
+#====================
+# Load spatial data
+#====================
 
-```{r spatial data wrangling}
+sites_dat <- read_csv('./data/spatial/sitecoords_all_10NOV2017.csv') # csv file with coordinates for all plots from the 2017 field season
+
+mtbs_raster <- raster('./data/spatial/ca3878212060420140913_20130730_20150805_dnbr6.tif') # geotiff raster file from MTBS (Monitoring Trends in Burn Severity) program, showing fire severity within the King Fire boundary
+
+
 
 #====================
 # Data wrangling: Site points
@@ -126,7 +120,8 @@ sites_gg <- spTransform(site_points, CRS("+proj=longlat +datum=WGS84")) # transf
 
 sites_gg_df <- as.data.frame(sites_gg) # data frame of site points
 
-mtbs_gg <- projectRaster(mtbs_raster, crs = CRS("+proj=longlat +datum=WGS84"))
+mtbs_gg <- projectRaster(mtbs_raster, crs = CRS("+proj=longlat +datum=WGS84"),
+                         method = 'ngm')
 # transform MTBS raster
 
 bbox <- make_bbox(lon = sites_gg_df$x, lat = sites_df$y, f = .05)
@@ -173,6 +168,17 @@ ggplot() +
 # Create an interative map
 #====================
 
+# Create an animated map using plotly
+
+gg <- ggplot() +  
+  geom_point(data = sites_df,
+             aes(x = x, y = y),
+             col = 'black', size = 5)
+gg
+ggplotly(gg)
+
+
+
 # Create an animated map using ggiraph
 
 map <- ggplot() +  
@@ -190,8 +196,6 @@ map <- ggplot() +
 
 girafe(code = print(map))
 
-
-# CAN USE ELEMENTS ASSOCIATED WITH SELCTIONS FROM GGIRAPH AS INPUT IN SHINY APP
 
 ```
 

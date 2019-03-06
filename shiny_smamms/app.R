@@ -2,8 +2,28 @@
 
 library(shiny)
 library(tidyverse)
+library(kableExtra)
 
-# Text chunks
+# Load necessary data
+
+bio <- read_csv('./data/smamm_bio.csv') # small mammal biographies
+
+traits <- read_csv('./data/trait.csv') # small mammal functional traits
+
+##### DATA WRANGLING ######
+
+diet <- traits %>% 
+  gather('diet_item', 'prop', 4:9) %>% 
+  select(code, diet_item, prop)
+
+##### PLOT ELEMENTS ######
+
+colors <- c('darkgoldenrod3', 'cadetblue4', 'darkolivegreen4', 'navajowhite3', 'olivedrab3', 'coral3')
+names(colors) <- as.character(unique(diet$diet_item))
+labs <- c('Seeds', 'Fruits', 'Vegetation', 'Fungi', 'Invertebrates', 'Vertebrates')
+names(labs) <- as.character(unique(diet$diet_item))
+
+##### TEXT CHUNKS #####
 
 text_fire <- 'In September-October 2014, a large human-ignited fire known as the King Fire scorched 39,545 ha in the northern Sierra Nevada, earning the distinction “mega-fire” due to its scope and intensity. Small mammal communities shifted drastically across the fire severity gradient, providing an interesting system to explore the role that these animals play in different habitats.'
 
@@ -13,16 +33,19 @@ text_smamm <- 'Smamms are fuzzy and cute! But watch out, they bite!'
 
 ui <- navbarPage('Big Fires, Small Mammals',
 
-                 #### Tab 1 ####
+                 #### Tab 1 - The "King" of Mega-Fires####
                                   
                  tabPanel(
                    
-                   'The \'King\' of Mega-fires',
+                   'The \"King\" of Mega-fires',
                    
-                   titlePanel('The \'King\' of Mega-fires'),
+                   titlePanel('The \"King\" of Mega-fires'),
                    
                    sidebarLayout(
                      sidebarPanel(
+                       
+                       # Widget for selection of severity
+                       
                        radioButtons('button_severity',
                                     'Select Severity',
                                     c('Unburned' = 'unb',
@@ -32,12 +55,15 @@ ui <- navbarPage('Big Fires, Small Mammals',
                      
                      mainPanel(
                        text_fire,
+                       
+                       # Site photo
+                       
                        imageOutput('photo_severity')
                      )
                    )  
                  ),
                  
-                 #### Tab 2 ####
+                 #### Tab 2 - Meet the Mammals!####
                  
                  tabPanel(
                    
@@ -47,33 +73,54 @@ ui <- navbarPage('Big Fires, Small Mammals',
                    
                    sidebarLayout(
                      sidebarPanel(
+                       
+                       # Widget for selection of smamm
+                       
                        radioButtons('button_smamm',
                                     'Choose a smamm!',
                                     c('North American deer mouse' = 'PEMA',
-                                      'Yellow pine chipmunk' = 'TAAM'))
+                                      'Trowbridge\'s shrew' = 'SOTR', 
+                                      'California ground squirrel' = 'SPBE',
+                                      'Brush mouse' = 'PEBO', 
+                                      'Long-eared chipmunk' = 'TAQU',
+                                      'Shadow chipmunk' = 'TASE',
+                                      'Dusky-footed woodrat' = 'NEFU',
+                                      'Yellow pine chipmunk' = 'TAAM',
+                                      'Northern flying squirrel' = 'GLSA',
+                                      'Pinyon mouse' = 'PETR',
+                                      'Western harvest mouse' = 'REME'))
                      ),
                      
                      mainPanel(
                        text_smamm,
-                       imageOutput('photo_smamm')
+                       
+                       # Photo of smamm
+                       
+                       imageOutput('photo_smamm'),
+                       
+                       # Table of smamm info
+                       
+                       tableOutput('smamm_table'),
+                       
+                       # Pie chart of diet
+                       
+                       plotOutput('smamm_diet')
                      )
                    )
                  ),
                  
-                 #### Tab 3 ####
+                 #### Tab 3 - Measuring Diversity####
                  
                  tabPanel('Measuring Diversity')
    
 
 )
 
-
-
 ##### SERVER #####
 
 server <- function(input, output) {
   
-  #### Tab 1 ####
+  #### Tab 1 - The "King" of Mega-Fires####
   
   # Site photo
   
@@ -95,9 +142,9 @@ server <- function(input, output) {
     }
   }, deleteFile = FALSE)
 
-  #### Tab 2 ####
+  #### Tab 2 - Meet the Mammals!####
   
-  # Mammal photo
+  # Photo of smamm
   
   output$photo_smamm <- renderImage({
     if(input$button_smamm == 'PEMA') {
@@ -112,7 +159,55 @@ server <- function(input, output) {
     }
   }, deleteFile = FALSE)
   
-  #### Tab 3 ####
+  # Table of smamm info
+  
+  output$smamm_table <- function() {
+    req(input$button_smamm)
+    bio %>% 
+      filter(code == input$button_smamm) %>% # FILTER FOR SMAMM
+      gather(info, value, 2:7) %>% 
+      select(-code) %>% 
+      mutate(value = cell_spec(value, italic = c(FALSE, TRUE, FALSE, FALSE, FALSE, FALSE))) %>% 
+      kable(escape = FALSE,
+            col.names = c('','')) %>% 
+      kable_styling(bootstrap_options = c('condensed', 'hover'),
+                    full_width = FALSE) %>% 
+      column_spec(1, bold = TRUE, width = '5cm') %>% 
+      column_spec(2, width = '6cm')
+  }
+  
+  # Pie chart of diet
+  
+  output$smamm_diet <- renderPlot({
+    diet %>% 
+      filter(code == input$button_smamm,
+             prop != 0) %>% 
+      arrange(-prop) %>% 
+      mutate(diet_item = factor(diet_item, levels = diet_item)) %>% 
+      arrange(prop) %>% 
+      ggplot(aes(x = code, y = prop)) +
+      geom_bar(aes(fill = diet_item),
+               stat = 'identity',
+               color = 'white',
+               lwd = 3) +
+      geom_text(aes(x = 1.6,
+                    label = paste0(prop, '%')),
+                position = position_stack(vjust = 0.5),
+                size = 4.3, fontface = 'bold') +
+      scale_fill_manual('Diet Item',
+                        values = colors,
+                        labels = labs) +
+      coord_polar(theta = 'y', start = 1) +
+      theme_minimal() +
+      theme(axis.title.x = element_blank(),
+            axis.title.y = element_blank(),
+            panel.border = element_blank(),
+            panel.grid = element_blank(),
+            axis.text.x = element_blank(),
+            axis.text.y = element_blank())
+  })
+  
+  #### Tab 3 - Measuring Diversity####
   
 }
 

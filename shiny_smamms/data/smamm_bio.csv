@@ -1,0 +1,12 @@
+code,common_name,binomial,family,weight,total_abundance,activity_time
+SPBE,California ground squirrel,Otospermophilus beecheyi,Sciuridae,350-885g,23,diurnal
+GLSA,Northern flying squirrel,Glaucomys sabrinus,Sciuridae,38-123g,2,nocturnal
+TAAM,Yellow-pine chipmunk,Neotamias amoenus,Sciuridae,36-50g,4,diurnal
+TAQU,Long-eared chipmunk,Neotamias quadrimaculatus,Sciuridae,81-105g/74-89g,17,diurnal
+TASE,Allen's (Shadow) chipmunk,Neotamias senex,Sciuridae,90-120g,12,diurnal
+NEFU,Dusky-footed woodrat,Neotoma fuscipes,Cricetidae,205-360g,5,nocturnal
+PEMA,North American deer mouse,Peromyscus maniculatus,Cricetidae,10-30g,426,nocturnal
+PEBO,Brush mouse,Peromyscus boylii,Cricetidae,22-36g,18,nocturnal
+PETR,Pinyon mouse,Peromyscus truei,Cricetidae,15-50g,2,nocturnal
+REME,Western harvest mouse,Reithrodontomys megalotis,Cricetidae,8-15g,2,nocturnal
+SOTR,Trowbridge's shrew,Sorex trowbridgii,Soricidae,3-5g,34,cathemeral
