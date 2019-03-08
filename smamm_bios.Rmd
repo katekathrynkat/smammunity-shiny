@@ -17,6 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(kableExtra)
+library(gt)
 
 # Load necessary data
 
@@ -36,13 +37,17 @@ bio %>%
   filter(code == 'PEMA') %>% # FILTER FOR SMAMM
   gather(info, value, 2:7) %>% 
   select(-code) %>% 
-  mutate(value = cell_spec(value, italic = c(FALSE, TRUE, FALSE, FALSE, FALSE, FALSE))) %>% 
-  kable(escape = FALSE,
-        col.names = c('','')) %>% 
-  kable_styling(bootstrap_options = c('condensed', 'hover'),
-                full_width = FALSE) %>% 
-  column_spec(1, bold = TRUE, width = '5cm') %>% 
-  column_spec(2, width = '6cm')
+  gt() %>% 
+  tab_header(
+    title = md('**Mammal Information**')
+  ) %>% 
+  tab_style(
+    style = cells_styles(text_style = 'italic'),
+    locations = cells_data(
+      columns = vars(value),
+      rows = 2
+    )
+  )
 
 ```
 

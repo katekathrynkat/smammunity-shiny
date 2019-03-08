@@ -96,7 +96,10 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        
                        # Photo of smamm
                        
-                       imageOutput('photo_smamm'),
+                       imageOutput('photo_smamm',
+                                   hover = hoverOpts(
+                                     id = 'license_hover'
+                                   )),
                        
                        # Table of smamm info
                        
@@ -152,13 +155,32 @@ server <- function(input, output) {
         src = 'www/PEMA.png', contentType = 'image/png', width = 300
       ))
     }
+    if(input$button_smamm == 'SPBE') {
+      return(list(
+        src = 'www/SPBE.png', contentType = 'image/png', width = 300
+      ))
+    }
+    if(input$button_smamm == 'TASE') {
+      return(list(
+        src = 'www/TASE.png', contentType = 'image/png', width = 300
+      ))
+    }
     if(input$button_smamm == 'TAAM') {
       return(list(
         src = 'www/TAAM.png', contentType = 'image/png', width = 300
       ))
     }
+    if(input$button_smamm == 'GLSA') {
+      return(list(
+        src = 'www/GLSA.png', contentType = 'image/png', width = 300
+      ))
+    }
   }, deleteFile = FALSE)
   
+  output$license_hover <- renderText({
+    cat('TEST TSTTTTTTTAHIOAWg')
+  })
+
   # Table of smamm info
   
   output$smamm_table <- function() {
