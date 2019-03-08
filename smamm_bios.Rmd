@@ -11,13 +11,15 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ```{r}
 
 # Load necessary packages
 
 library(tidyverse)
-library(kableExtra)
-library(gt)
+library(gt) # making pretty tables
+library(ape) # phylogenetic analysis
+library(ggtree) # ggplot phylogenetic trees
 
 # Load necessary data
 
@@ -26,6 +28,8 @@ smamms <- read_csv('./data/unique_smamms.csv') # dataset with one row per unique
 bio <- read_csv('./data/smamm_bio.csv') # small mammal biographies
 
 traits <- read_csv('./data/trait.csv') # small mammal functional traits
+
+tree <- read.nexus('./data/Small_phylogeny.nex') # phylogenetic tree
 
 ```
 
@@ -91,6 +95,54 @@ diet %>%
           panel.grid = element_blank(),
           axis.text.x = element_blank(),
           axis.text.y = element_blank())
+
+```
+
+
+###Phylogeny
+
+```{r}
+
+# Format phylogeny
+
+phylo <- tree[[1]]
+
+# Update binomial format (remove spaces)
+
+smamms <- smamms %>% 
+  mutate(binomial_new = gsub(' ', '_', binomial))
+
+# Trim tree
+
+species <- unique(smamms$binomial_new) %>% 
+  append(., c('Puma_concolor', 'Canis_latrans', 'Didelphis_virginiana', 'Lynx_rufus', 'Spilogale_gracilis', 'Mephitis_mephitis', 'Odocoileus_hemionus', 'Urocyon_cinereoargenteus', 'Ursus_americanus', 'Lepus_townsendii', 'Homo_sapiens'))
+
+pruned <- drop.tip(phylo, phylo$tip.label[-match(species, phylo$tip.label)])
+
+write.nexus(pruned, file = './data/pruned_tree.nex')
+
+pruned <- read.nexus('./data/pruned_tree.nex') # phylogenetic tree
+
+# Create phylogram
+
+phylo_labels <- data.frame(label = pruned_grouped$tip.label,
+                     name = c('Virgina opossum', 'Mountain lion', 'Bobcat', 'Gray fox', 'Coyote', 'Spotted skunk', 'Striped skunk', 'American black bear', 'Mule deer', 'Trowbridge\'s shrew', 'Human', 'California ground squirrel', 'Shadow chipmunk', 'Yellow pine chipmunk', 'Long-eared chipmunk', 'Northern flying squirrel', 'Dusky-footed woodrat', 'Brush mouse', 'Pinyon mouse', 'North American deer mouse', 'Western harvest mouse', 'White-tailed jackrabbit'),
+                     code = c('', '', '', '', '', '', '', '', '', 'SOTR', '', 'SPBE', 'TASE', 'TAAM', 'TAQU', 'GLSA', 'NEFU', 'PEBO', 'PETR', 'PEMA', 'REME', '')) %>% # data frame for labels
+  mutate(match = grepl('PEMA', code)) # FILTER FOR SMAMM
+
+ggtree(pruned_grouped, aes(color = group),
+       size = 1.4) %<+% phylo_labels +
+  scale_color_manual(values = c('grey60', 'black', 'grey60', 'black')) +
+  
+  geom_tiplab(aes(label = name,
+                  alpha = factor(match)),
+              offset = 2,
+              geom = 'label',
+              fill = 'coral2', color = NA) +
+  scale_alpha_manual(values = c(0, 1)) +
+  geom_tiplab(aes(label = name), offset = 3) +
+  geom_rootedge(rootedge = 10, size = 1.4) +
+  xlim(-10,400)
 
 ```
 

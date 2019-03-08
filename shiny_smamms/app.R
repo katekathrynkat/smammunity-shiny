@@ -2,7 +2,10 @@
 
 library(shiny)
 library(tidyverse)
-library(kableExtra)
+library(shinyBS) # tooltips
+library(kableExtra) # making pretty tables
+library(ape) # phylogenetic analysis
+library(ggtree) # ggplot phylogenetic trees
 
 # Load necessary data
 
@@ -78,17 +81,17 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        
                        radioButtons('button_smamm',
                                     'Choose a smamm!',
-                                    c('North American deer mouse' = 'PEMA',
-                                      'Trowbridge\'s shrew' = 'SOTR', 
-                                      'California ground squirrel' = 'SPBE',
+                                    c('Pinyon mouse' = 'PETR',
                                       'Brush mouse' = 'PEBO', 
-                                      'Long-eared chipmunk' = 'TAQU',
-                                      'Shadow chipmunk' = 'TASE',
+                                      'North American deer mouse' = 'PEMA',
+                                      'Western harvest mouse' = 'REME',
                                       'Dusky-footed woodrat' = 'NEFU',
                                       'Yellow pine chipmunk' = 'TAAM',
+                                      'Shadow chipmunk' = 'TASE',
+                                      'Long-eared chipmunk' = 'TAQU',
+                                      'California ground squirrel' = 'SPBE',
                                       'Northern flying squirrel' = 'GLSA',
-                                      'Pinyon mouse' = 'PETR',
-                                      'Western harvest mouse' = 'REME'))
+                                      'Trowbridge\'s shrew' = 'SOTR'))
                      ),
                      
                      mainPanel(
@@ -96,10 +99,7 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        
                        # Photo of smamm
                        
-                       imageOutput('photo_smamm',
-                                   hover = hoverOpts(
-                                     id = 'license_hover'
-                                   )),
+                       imageOutput('photo_smamm'),
                        
                        # Table of smamm info
                        
@@ -107,7 +107,11 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        
                        # Pie chart of diet
                        
-                       plotOutput('smamm_diet')
+                       plotOutput('smamm_diet'),
+                       
+                       # Phylogenetic tree
+                       
+                       plotOutput('phylo_tree')
                      )
                    )
                  ),
@@ -121,7 +125,7 @@ ui <- navbarPage('Big Fires, Small Mammals',
 
 ##### SERVER #####
 
-server <- function(input, output) {
+server <- function(input, output, session) {
   
   #### Tab 1 - The "King" of Mega-Fires####
   
@@ -155,9 +159,14 @@ server <- function(input, output) {
         src = 'www/PEMA.png', contentType = 'image/png', width = 300
       ))
     }
-    if(input$button_smamm == 'SPBE') {
+    if(input$button_smamm == 'NEFU') {
       return(list(
-        src = 'www/SPBE.png', contentType = 'image/png', width = 300
+        src = 'www/NEFU.png', contentType = 'image/png', width = 300
+      ))
+    }
+    if(input$button_smamm == 'TAAM') {
+      return(list(
+        src = 'www/TAAM.png', contentType = 'image/png', width = 300
       ))
     }
     if(input$button_smamm == 'TASE') {
@@ -165,9 +174,9 @@ server <- function(input, output) {
         src = 'www/TASE.png', contentType = 'image/png', width = 300
       ))
     }
-    if(input$button_smamm == 'TAAM') {
+    if(input$button_smamm == 'SPBE') {
       return(list(
-        src = 'www/TAAM.png', contentType = 'image/png', width = 300
+        src = 'www/SPBE.png', contentType = 'image/png', width = 300
       ))
     }
     if(input$button_smamm == 'GLSA') {
@@ -176,10 +185,6 @@ server <- function(input, output) {
       ))
     }
   }, deleteFile = FALSE)
-  
-  output$license_hover <- renderText({
-    cat('TEST TSTTTTTTTAHIOAWg')
-  })
 
   # Table of smamm info
   
@@ -227,6 +232,29 @@ server <- function(input, output) {
             panel.grid = element_blank(),
             axis.text.x = element_blank(),
             axis.text.y = element_blank())
+  })
+  
+  # Phylogenetic tree
+  
+  output$phylo_tree <- renderPlot({
+    phylo_labels <- data.frame(label = pruned_grouped$tip.label,
+                               name = c('Virgina opossum', 'Mountain lion', 'Bobcat', 'Gray fox', 'Coyote', 'Spotted skunk', 'Striped skunk', 'American black bear', 'Mule deer', 'Trowbridge\'s shrew', 'Human', 'California ground squirrel', 'Shadow chipmunk', 'Yellow pine chipmunk', 'Long-eared chipmunk', 'Northern flying squirrel', 'Dusky-footed woodrat', 'Brush mouse', 'Pinyon mouse', 'North American deer mouse', 'Western harvest mouse', 'White-tailed jackrabbit'),
+                               code = c('', '', '', '', '', '', '', '', '', 'SOTR', '', 'SPBE', 'TASE', 'TAAM', 'TAQU', 'GLSA', 'NEFU', 'PEBO', 'PETR', 'PEMA', 'REME', '')) %>% # data frame for labels
+      mutate(match = grepl(input$button_smamm, code)) # FILTER FOR SMAMM
+    
+    ggtree(pruned_grouped, aes(color = group),
+           size = 1.4) %<+% phylo_labels +
+      scale_color_manual(values = c('grey60', 'black', 'grey60', 'black')) +
+      
+      geom_tiplab(aes(label = name,
+                      alpha = factor(match)),
+                  offset = 2,
+                  geom = 'label',
+                  fill = 'coral2', color = NA) +
+      scale_alpha_manual(values = c(0, 1)) +
+      geom_tiplab(aes(label = name), offset = 3) +
+      geom_rootedge(rootedge = 10, size = 1.4) +
+      xlim(-10,400)
   })
   
   #### Tab 3 - Measuring Diversity####
