@@ -1,17 +1,24 @@
 # Load necessary packages
 
 library(shiny)
+library(shinythemes)
 library(tidyverse)
 library(shinyBS) # tooltips
-library(kableExtra) # making pretty tables
+library(gt) # making pretty tables
 library(ape) # phylogenetic analysis
 library(ggtree) # ggplot phylogenetic trees
+library(ggwaffle) # ggplot waffle plots
+library(emojifont) # emojis for waffle plot icons
 
 # Load necessary data
+
+smamms <- read_csv('./data/unique_smamms.csv') # dataset with one row per unique individual
 
 bio <- read_csv('./data/smamm_bio.csv') # small mammal biographies
 
 traits <- read_csv('./data/trait.csv') # small mammal functional traits
+
+pruned <- read.nexus('./data/pruned_tree.nex') # phylogenetic tree
 
 ##### DATA WRANGLING ######
 
@@ -32,11 +39,22 @@ text_fire <- 'In September-October 2014, a large human-ignited fire known as the
 
 text_smamm <- 'Smamms are fuzzy and cute! But watch out, they bite!'
 
-##### USER INTERFACE #####
+#### USER INTERFACE ####
 
 ui <- navbarPage('Big Fires, Small Mammals',
+                 theme = shinytheme("sandstone"),
+                 
+                 #### Tab 1 - About ####
+                 
+                 tabPanel(
+                   
+                   'About',
+                   
+                   titlePanel('About')
+                   
+                 ),
 
-                 #### Tab 1 - The "King" of Mega-Fires####
+                 #### Tab 2 - The "King" of Mega-Fires ####
                                   
                  tabPanel(
                    
@@ -50,10 +68,10 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        # Widget for selection of severity
                        
                        radioButtons('button_severity',
-                                    'Select Severity',
-                                    c('Unburned' = 'unb',
-                                      'Low-Moderate Severity' = 'mod',
-                                      'High Severity' = 'high'))
+                                    'Where do you want to visit?',
+                                    c('Unburned sites' = 'unb',
+                                      'Low-moderate severity sites' = 'mod',
+                                      'High severity sites' = 'high'))
                      ),
                      
                      mainPanel(
@@ -66,7 +84,7 @@ ui <- navbarPage('Big Fires, Small Mammals',
                    )  
                  ),
                  
-                 #### Tab 2 - Meet the Mammals!####
+                 #### Tab 3 - Meet the Mammals! ####
                  
                  tabPanel(
                    
@@ -75,23 +93,28 @@ ui <- navbarPage('Big Fires, Small Mammals',
                    titlePanel('Meet the Mammals!'),
                    
                    sidebarLayout(
-                     sidebarPanel(
+                     sidebarPanel(width = 4,
                        
                        # Widget for selection of smamm
                        
-                       radioButtons('button_smamm',
-                                    'Choose a smamm!',
-                                    c('Pinyon mouse' = 'PETR',
-                                      'Brush mouse' = 'PEBO', 
-                                      'North American deer mouse' = 'PEMA',
-                                      'Western harvest mouse' = 'REME',
-                                      'Dusky-footed woodrat' = 'NEFU',
-                                      'Yellow pine chipmunk' = 'TAAM',
-                                      'Shadow chipmunk' = 'TASE',
-                                      'Long-eared chipmunk' = 'TAQU',
-                                      'California ground squirrel' = 'SPBE',
-                                      'Northern flying squirrel' = 'GLSA',
-                                      'Trowbridge\'s shrew' = 'SOTR'))
+                       radioButtons(
+                         
+                         'button_smamm',
+                         'Who do you want to meet?',
+                         
+                         c('Pinyon mouse' = 'PETR',
+                           'Brush mouse' = 'PEBO', 
+                           'North American deer mouse' = 'PEMA',
+                           'Western harvest mouse' = 'REME',
+                           'Dusky-footed woodrat' = 'NEFU',
+                           'Yellow pine chipmunk' = 'TAAM',
+                           'Shadow chipmunk' = 'TASE',
+                           'Long-eared chipmunk' = 'TAQU',
+                           'California ground squirrel' = 'SPBE',
+                           'Northern flying squirrel' = 'GLSA',
+                           'Trowbridge\'s shrew' = 'SOTR')
+                         
+                       )
                      ),
                      
                      mainPanel(
@@ -103,7 +126,7 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        
                        # Table of smamm info
                        
-                       tableOutput('smamm_table'),
+                       gt_output('smamm_table'),
                        
                        # Pie chart of diet
                        
@@ -111,23 +134,119 @@ ui <- navbarPage('Big Fires, Small Mammals',
                        
                        # Phylogenetic tree
                        
-                       plotOutput('phylo_tree')
+                       plotOutput('phylo_tree'),
+                       
+                       # Pictograph of habitat preference
+                       
+                       plotOutput('smamm_pictograph')
                      )
                    )
                  ),
                  
-                 #### Tab 3 - Measuring Diversity####
+                 #### Tab 4 - Measuring Diversity ####
                  
-                 tabPanel('Measuring Diversity')
+                 tabPanel(
+                   
+                   'Measuring Diversity',
+                   
+                   titlePanel('Measuring Diversity'),
+                   
+                   sidebarLayout(
+                     sidebarPanel(
+                       
+                       div(
+                         
+                         style = "display:inline-block; vertical-align:top; width:150px;",
+                         
+                         sliderInput('slider_PETR',
+                                     'Pinyon mouse',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+                         
+                         sliderInput('slider_PEBO',
+                                     'Brush mouse',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_PEMA',
+                                     'North American deer mouse',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_REME',
+                                     'Western harvest mouse',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_NEFU',
+                                     'Dusky-footed woodrat',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_TAAM',
+                                     'Yellow-pine chipmunk',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE)
+                         
+                       ),
+                       
+                       div(
+                         
+                         style="display:inline-block; vertical-align:top; width:20px;",
+                         
+                         HTML("<br>")
+                         
+                         ),
+                       
+                       div(
+                         
+                         style = "display:inline-block; vertical-align:top; width:150px;",
+                         
+                         sliderInput('slider_TASE',
+                                     'Shadow chipmunk',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+                         
+                         sliderInput('slider_TAQU',
+                                     'Long-eared chipmunk',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_SPBE',
+                                     'California ground squirrel',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_GLSA',
+                                     'Northern flying squirrel',
+                                     min = 0, max = 10,
+                                     value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE),
+
+                         sliderInput('slider_SOTR',
+                                     'Trowbridge\'s shrew',
+                                     min = 0, max = 10, value = 0, step = 1,
+                                     round = TRUE, ticks = FALSE)
+                         
+                       )
+                      
+                     ),
+                     
+                     mainPanel(
+                       
+                     )
+                   )
+                   
+                   )
    
 
 )
 
-##### SERVER #####
+#### SERVER ####
 
 server <- function(input, output, session) {
   
-  #### Tab 1 - The "King" of Mega-Fires####
+  #### Tab 2 - The "King" of Mega-Fires ####
   
   # Site photo
   
@@ -149,14 +268,29 @@ server <- function(input, output, session) {
     }
   }, deleteFile = FALSE)
 
-  #### Tab 2 - Meet the Mammals!####
+  #### Tab 3 - Meet the Mammals! ####
   
   # Photo of smamm
   
   output$photo_smamm <- renderImage({
+    if(input$button_smamm == 'PETR') {
+      return(list(
+        src = 'www/PETR.png', contentType = 'image/png', width = 300
+      ))
+    }
+    if(input$button_smamm == 'PEBO') {
+      return(list(
+        src = 'www/PEBO.png', contentType = 'image/png', width = 300
+      ))
+    }
     if(input$button_smamm == 'PEMA') {
       return(list(
         src = 'www/PEMA.png', contentType = 'image/png', width = 300
+      ))
+    }
+    if(input$button_smamm == 'REME') {
+      return(list(
+        src = 'www/REME.png', contentType = 'image/png', width = 300
       ))
     }
     if(input$button_smamm == 'NEFU') {
@@ -174,6 +308,11 @@ server <- function(input, output, session) {
         src = 'www/TASE.png', contentType = 'image/png', width = 300
       ))
     }
+    if(input$button_smamm == 'TAQU') {
+      return(list(
+        src = 'www/TAQU.png', contentType = 'image/png', width = 300
+      ))
+    }
     if(input$button_smamm == 'SPBE') {
       return(list(
         src = 'www/SPBE.png', contentType = 'image/png', width = 300
@@ -184,24 +323,43 @@ server <- function(input, output, session) {
         src = 'www/GLSA.png', contentType = 'image/png', width = 300
       ))
     }
+    if(input$button_smamm == 'SOTR') {
+      return(list(
+        src = 'www/SOTR.png', contentType = 'image/png', width = 300
+      ))
+    }
   }, deleteFile = FALSE)
 
   # Table of smamm info
   
-  output$smamm_table <- function() {
+  output$smamm_table <- render_gt({
     req(input$button_smamm)
     bio %>% 
       filter(code == input$button_smamm) %>% # FILTER FOR SMAMM
-      gather(info, value, 2:7) %>% 
+      gather(info, value, 2:8) %>% 
       select(-code) %>% 
-      mutate(value = cell_spec(value, italic = c(FALSE, TRUE, FALSE, FALSE, FALSE, FALSE))) %>% 
-      kable(escape = FALSE,
-            col.names = c('','')) %>% 
-      kable_styling(bootstrap_options = c('condensed', 'hover'),
-                    full_width = FALSE) %>% 
-      column_spec(1, bold = TRUE, width = '5cm') %>% 
-      column_spec(2, width = '6cm')
-  }
+      gt() %>% 
+      tab_header(
+        title = md('**Mammal Information**')
+      ) %>% 
+      cols_label(info = '', value = '') %>% 
+      tab_style(
+        style = cells_styles(text_weight = 'bold'),
+        locations = cells_data(
+          columns = vars(info)
+        )
+      ) %>% 
+      tab_style(
+        style = cells_styles(text_style = 'italic'),
+        locations = cells_data(
+          columns = vars(value),
+          rows = 4
+        )
+      ) %>% 
+      tab_options(
+        table.width = px(500)
+      )
+  })
   
   # Pie chart of diet
   
@@ -237,6 +395,9 @@ server <- function(input, output, session) {
   # Phylogenetic tree
   
   output$phylo_tree <- renderPlot({
+    
+    pruned_grouped <- groupClade(pruned, c(25,26,35))
+    
     phylo_labels <- data.frame(label = pruned_grouped$tip.label,
                                name = c('Virgina opossum', 'Mountain lion', 'Bobcat', 'Gray fox', 'Coyote', 'Spotted skunk', 'Striped skunk', 'American black bear', 'Mule deer', 'Trowbridge\'s shrew', 'Human', 'California ground squirrel', 'Shadow chipmunk', 'Yellow pine chipmunk', 'Long-eared chipmunk', 'Northern flying squirrel', 'Dusky-footed woodrat', 'Brush mouse', 'Pinyon mouse', 'North American deer mouse', 'Western harvest mouse', 'White-tailed jackrabbit'),
                                code = c('', '', '', '', '', '', '', '', '', 'SOTR', '', 'SPBE', 'TASE', 'TAAM', 'TAQU', 'GLSA', 'NEFU', 'PEBO', 'PETR', 'PEMA', 'REME', '')) %>% # data frame for labels
@@ -257,7 +418,38 @@ server <- function(input, output, session) {
       xlim(-10,400)
   })
   
-  #### Tab 3 - Measuring Diversity####
+  # Pictograph of habitat preference
+  
+  output$smamm_pictograph <- renderPlot({
+  
+    batter <- smamms %>% 
+      mutate(
+        rows = case_when(
+          species == 'PEMA' ~ 10,
+          TRUE ~ 5
+        ),
+        color = case_when(
+          severity == 'high' ~ 'red',
+          severity == 'mod' ~ 'orange',
+          severity == 'unb' ~ 'darkgreen'
+        )
+      ) %>% 
+      filter(species == input$button_smamm) # FILTER FOR SMAMM
+    
+    waffled <- waffle_iron(batter, aes_d(group = color), rows = unique(batter$rows))
+    
+    ggplot() +
+      geom_emoji('mouse2', x = waffled$x, y = waffled$y,
+                 color = waffled$group,
+                 size = 5) +
+      coord_equal() +
+      ggplot2::xlim(c(-1,43)) +
+      ggplot2::ylim(c(0,11)) +
+      labs(x = '', y = '') +
+      theme_waffle()
+  })
+  
+  #### Tab 4 - Measuring Diversity ####
   
 }
 

@@ -20,6 +20,8 @@ library(tidyverse)
 library(gt) # making pretty tables
 library(ape) # phylogenetic analysis
 library(ggtree) # ggplot phylogenetic trees
+library(ggwaffle) # ggplot waffle plots
+library(emojifont) # emojis for waffle plot icons
 
 # Load necessary data
 
@@ -33,24 +35,47 @@ tree <- read.nexus('./data/Small_phylogeny.nex') # phylogenetic tree
 
 ```
 
+###Photos
+
+**Credits:**
+
+- SPBE: https://www.inaturalist.org/photos/18567882
+- PEBO: https://www.inaturalist.org/observations/283652
+- PETR: https://www.inaturalist.org/observations/7461632
+- REME: https://www.inaturalist.org/photos/162514
+- SOTR: https://www.inaturalist.org/observations/14469602
+- TAQU: https://www.inaturalist.org/observations/16497360
+- TASE: https://www.inaturalist.org/observations/3534880
+- GLSA: https://www.inaturalist.org/photos/4120147
+
 ###Table of characteristics
 
 ```{r}
 
 bio %>% 
   filter(code == 'PEMA') %>% # FILTER FOR SMAMM
-  gather(info, value, 2:7) %>% 
+  gather(info, value, 2:8) %>% 
   select(-code) %>% 
   gt() %>% 
   tab_header(
     title = md('**Mammal Information**')
   ) %>% 
+  cols_label(info = '', value = '') %>% 
+  tab_style(
+    style = cells_styles(text_weight = 'bold'),
+    locations = cells_data(
+      columns = vars(info)
+    )
+  ) %>% 
   tab_style(
     style = cells_styles(text_style = 'italic'),
     locations = cells_data(
       columns = vars(value),
-      rows = 2
+      rows = 4
     )
+  ) %>% 
+  tab_options(
+    table.width = px(500)
   )
 
 ```
@@ -125,6 +150,8 @@ pruned <- read.nexus('./data/pruned_tree.nex') # phylogenetic tree
 
 # Create phylogram
 
+pruned_grouped <- groupClade(pruned, c(25,26,35))
+
 phylo_labels <- data.frame(label = pruned_grouped$tip.label,
                      name = c('Virgina opossum', 'Mountain lion', 'Bobcat', 'Gray fox', 'Coyote', 'Spotted skunk', 'Striped skunk', 'American black bear', 'Mule deer', 'Trowbridge\'s shrew', 'Human', 'California ground squirrel', 'Shadow chipmunk', 'Yellow pine chipmunk', 'Long-eared chipmunk', 'Northern flying squirrel', 'Dusky-footed woodrat', 'Brush mouse', 'Pinyon mouse', 'North American deer mouse', 'Western harvest mouse', 'White-tailed jackrabbit'),
                      code = c('', '', '', '', '', '', '', '', '', 'SOTR', '', 'SPBE', 'TASE', 'TAAM', 'TAQU', 'GLSA', 'NEFU', 'PEBO', 'PETR', 'PEMA', 'REME', '')) %>% # data frame for labels
@@ -142,7 +169,41 @@ ggtree(pruned_grouped, aes(color = group),
   scale_alpha_manual(values = c(0, 1)) +
   geom_tiplab(aes(label = name), offset = 3) +
   geom_rootedge(rootedge = 10, size = 1.4) +
-  xlim(-10,400)
+  xlim(-10,400) +
+  annotate('text', x = -10, y = 20, hjust = 0,
+           label = 'Small mammals are in black. Larger mammals that \nwere seen at our sites but not included in these analyses are included in grey.')
+
+```
+
+###Pictograph of habitat preference
+
+```{r}
+
+batter <- smamms %>% 
+  mutate(
+    rows = case_when(
+      species == 'PEMA' ~ 10,
+      TRUE ~ 5
+    ),
+    color = case_when(
+      severity == 'high' ~ 'red',
+      severity == 'mod' ~ 'orange',
+      severity == 'unb' ~ 'darkgreen'
+    )
+  ) %>% 
+  filter(species == 'PEMA') # FILTER FOR SMAMM
+
+waffled <- waffle_iron(batter, aes_d(group = color), rows = unique(batter$rows))
+
+ggplot() +
+  geom_emoji('mouse2', x = waffled$x, y = waffled$y,
+             color = waffled$group,
+             size = 5) +
+  coord_equal() +
+  ggplot2::xlim(c(-1,43)) +
+  ggplot2::ylim(c(0,11)) +
+  labs(x = '', y = '') +
+  theme_waffle()
 
 ```
 

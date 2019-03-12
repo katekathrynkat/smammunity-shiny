@@ -1,12 +1,12 @@
-code,Common Name,Scientific Name,Family,Mass,Activity Time,Total Number Captured
-SPBE,California ground squirrel,Otospermophilus beecheyi,Sciuridae,350-885g,diurnal,23
-GLSA,Northern flying squirrel,Glaucomys sabrinus,Sciuridae,38-123g,nocturnal,2
-TAAM,Yellow-pine chipmunk,Neotamias amoenus,Sciuridae,36-50g,diurnal,4
-TAQU,Long-eared chipmunk,Neotamias quadrimaculatus,Sciuridae,74-105g,diurnal,17
-TASE,Allen's (Shadow) chipmunk,Neotamias senex,Sciuridae,90-120g,diurnal,12
-NEFU,Dusky-footed woodrat,Neotoma fuscipes,Cricetidae,205-360g,nocturnal,5
-PEMA,North American deer mouse,Peromyscus maniculatus,Cricetidae,10-30g,nocturnal,426
-PEBO,Brush mouse,Peromyscus boylii,Cricetidae,22-36g,nocturnal,18
-PETR,Pinyon mouse,Peromyscus truei,Cricetidae,15-50g,nocturnal,2
-REME,Western harvest mouse,Reithrodontomys megalotis,Cricetidae,8-15g,nocturnal,2
-SOTR,Trowbridge's shrew,Sorex trowbridgii,Soricidae,3-5g,cathemeral,34
+code,Common Name,Order,Family,Scientific Name,Average Mass,Foraging mode,Total Number Captured
+SPBE,California ground squirrel,Rodentia,Sciuridae,Otospermophilus beecheyi,598 grams,"not arboreal, fossorial",23
+GLSA,Northern flying squirrel,Rodentia,Sciuridae,Glaucomys sabrinus,138 grams,"arboreal, not fossorial",2
+TAAM,Yellow-pine chipmunk,Rodentia,Sciuridae,Neotamias amoenus,51 grams,"arboreal, fossorial",4
+TAQU,Long-eared chipmunk,Rodentia,Sciuridae,Neotamias quadrimaculatus,84 grams,"somewhat arboreal, fossorial",17
+TASE,Allen's (Shadow) chipmunk,Rodentia,Sciuridae,Neotamias senex,89 grams,"not arboreal, somewhat fossorial",12
+NEFU,Dusky-footed woodrat,Rodentia,Cricetidae,Neotoma fuscipes,213 grams,"arboreal, not fossorial",5
+PEMA,North American deer mouse,Rodentia,Cricetidae,Peromyscus maniculatus,20 grams,"arboreal, not fossorial",426
+PEBO,Brush mouse,Rodentia,Cricetidae,Peromyscus boylii,24 grams,"arboreal, not fossorial",18
+PETR,Pinyon mouse,Rodentia,Cricetidae,Peromyscus truei,27 grams,"somewhat arboreal, not fossorial",2
+REME,Western harvest mouse,Rodentia,Cricetidae,Reithrodontomys megalotis,11 grams,"somewhat arboreal, not fossorial",2
+SOTR,Trowbridge's shrew,Eulipotyphla,Soricidae,Sorex trowbridgii,5 grams,"not arboreal, fossorial",34
