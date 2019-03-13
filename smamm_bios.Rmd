@@ -169,9 +169,7 @@ ggtree(pruned_grouped, aes(color = group),
   scale_alpha_manual(values = c(0, 1)) +
   geom_tiplab(aes(label = name), offset = 3) +
   geom_rootedge(rootedge = 10, size = 1.4) +
-  xlim(-10,400) +
-  annotate('text', x = -10, y = 20, hjust = 0,
-           label = 'Small mammals are in black. Larger mammals that \nwere seen at our sites but not included in these analyses are included in grey.')
+  xlim(-10,400)
 
 ```
 

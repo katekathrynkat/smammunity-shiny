@@ -1,0 +1,310 @@
+---
+title: "Diversity graphs"
+author: "Kate Culhane"
+date: "March 11, 2019"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+# Load necessary packages
+
+library(tidyverse)
+library(vegan) # community ecology analysis
+library(ape) # phylogenetic analysis
+library(lefse) # weighted Faith's PD
+library(FD) # functional diversity analysis
+library(gridExtra) # combine plots in a grid
+
+# Load necessary data
+
+smamms <- read_csv('./data/unique_smamms.csv') %>% # dataset with one row per unique individual
+  mutate(severity = factor(severity, levels = c('unb', 'mod', 'high', 'fake')))
+
+fn_traits <- read_csv('./data/trait2.csv') # data set with functional trait data
+
+sevs <- smamms %>% 
+  dplyr::group_by(site, severity) %>% 
+  summarize(length(species)) %>% 
+  ungroup()
+
+spp_matrix <- read_csv('./data/spp_matrix.csv') # species matrix
+
+pruned <- read.nexus('./data/pruned_tree.nex') # phylogenetic tree
+
+```
+
+```{r}
+
+# Fake data
+
+smammunity <- c(input$slider_PETR,
+                input$slider_PEBO,
+                input$slider_PEMA,
+                input$slider_REME,
+                input$slider_NEFU,
+                input$slider_TAAM,
+                input$slider_TASE,
+                input$slider_TAQU,
+                input$slider_SPBE,
+                input$slider_GLSA,
+                input$slider_SOTR)
+
+smammunity <- c(2,0,0,3,0,0,0,0,0,3,0)
+
+```
+
+
+###Species diversity
+
+```{r}
+
+# Calculate Shannon-Weaver diversity index (H) for each site
+
+H <- data.frame(spp_matrix[,1], diversity(spp_matrix[,-1]), sevs[,2]) %>% 
+  rename(H = diversity.spp_matrix....1..,
+         site = X1)
+
+# Calculate H for fake data
+
+new_H <- data.frame(H = diversity(smammunity),
+                    severity = 'fake') %>% 
+  mutate(severity = factor(severity, levels = c('unb', 'mod', 'high', 'fake')))
+
+
+# Make a graph
+
+colors <- c('darkgreen', 'orange', 'red', 'purple')
+xlabs <- c('Unburned', 'Moderate\nSeverity', 'High\nSeverity', 'YOUR\nNEW\nCOMMUNITY')
+
+ggplot2::ggplot() +
+  geom_jitter(data = H,
+              aes(x = severity, y = H, color = severity),
+              width = 0.15, size = 2) +
+  geom_point(data = new_H,
+             aes(x = severity, y = H, color = severity),
+             size = 5) +
+  scale_x_discrete(drop = FALSE,
+                   labels = xlabs) +
+  scale_color_manual(values = rev(colors)) +
+  theme_classic() +
+  labs(x = 'Fire Severity',
+       y = 'Shannon Diversity (H)') +
+  theme(legend.position = 'NA')
+
+```
+
+###Functional diversity
+
+```{r}
+
+# Calculate functional diversity (FD) for each site
+
+fn_traits2 <- data.frame(fn_traits) %>% 
+  arrange(X1)
+rownames(fn_traits2) <- fn_traits2$X1
+fn_traits2 <- fn_traits2 %>% 
+  select(-X1)
+
+sites <- spp_matrix[,1]
+spp_matrix_mtx <- data.matrix(spp_matrix)
+rownames(spp_matrix_mtx) <- sites$X1
+spp_matrix_mtx <- spp_matrix_mtx[,-1]
+
+weight <- c(0.25, # weight for body mass
+            0.04166667, 0.04166667, 0.04166667, 0.04166667, 0.04166667, 0.04166667, # weight for diet categories
+            0.125, 0.125, # weight for foraging mode attributes
+            0.05, 0.05, 0.05, 0.05, 0.05) # weight for weediness attributes
+
+FD_indices <- dbFD(fn_traits2, spp_matrix_mtx, weight)
+
+FD <- data_frame(sites$X1, FD_indices$FRic, FD_indices$FDiv, FD_indices$FEve, FD_indices$FDis) %>% 
+  rename(site = 'sites$X1',
+         FRic = 'FD_indices$FRic',
+         FDiv = 'FD_indices$FDiv',
+         FEve = 'FD_indices$FEve',
+         FDis = 'FD_indices$FDis') %>% 
+  full_join(sevs)
+
+# Calculate FD for fake data
+
+spp_names <- c('PETR', 'PEBO', 'PEMA', 'REME', 'NEFU', 'TAAM', 'TASE', 'TAQU', 'SPBE', 'GLSA', 'SOTR')
+
+new_matrix <- data.frame(spp_names, smammunity) %>% 
+  arrange(spp_names) %>% 
+  filter(smammunity != 0) %>% 
+  t()
+
+colnames(new_matrix) <- new_matrix[1,]
+
+
+
+colnames(new_matrix) <- spp_names
+
+new_matrix <- new_matrix %>% 
+  select('GLSA', 'NEFU', 'PEBO', 'PEMA', 'PETR', 'REME', 'SOTR', 'SPBE', 'TAAM', 'TAQU', 'TASE')
+
+FD_new <- dbFD(fn_traits2, new_matrix, weight)
+
+
+# Make a graph
+
+colors <- c('red', 'orange', 'darkgreen')
+xlabs <- c('Unburned', 'Moderate\nSeverity', 'High\nSeverity', 'YOUR\nNEW\nCOMMUNITY')
+
+FD1 <- ggplot2::ggplot() +
+  geom_jitter(data = FD,
+              aes(x = severity, y = FRic, color = severity),
+              width = 0.15, size = 2) +
+  # geom_point(data = new_FD,
+  #            aes(x = severity, y = FRic, color = severity),
+  #            size = 5) +
+  scale_x_discrete(drop = FALSE,
+                   labels = xlabs) +
+  scale_color_manual(values = rev(colors)) +
+  theme_classic() +
+  labs(x = 'Fire Severity',
+       y = 'Functional Richness (Fric)') +
+  theme(legend.position = 'NA')
+FD2 <- ggplot2::ggplot() +
+  geom_jitter(data = FD,
+              aes(x = severity, y = FDiv, color = severity),
+              width = 0.15, size = 2) +
+  # geom_point(data = new_FD,
+  #            aes(x = severity, y = FDiv, color = severity),
+  #            size = 5) +
+  scale_x_discrete(drop = FALSE,
+                   labels = xlabs) +
+  scale_color_manual(values = rev(colors)) +
+  theme_classic() +
+  labs(x = 'Fire Severity',
+       y = 'Functional Divergence (FDiv)') +
+  theme(legend.position = 'NA')
+FD3 <- ggplot2::ggplot() +
+  geom_jitter(data = FD,
+              aes(x = severity, y = FEve, color = severity),
+              width = 0.15, size = 2) +
+  # geom_point(data = new_FD,
+  #            aes(x = severity, y = FEve, color = severity),
+  #            size = 5) +
+  scale_x_discrete(drop = FALSE,
+                   labels = xlabs) +
+  scale_color_manual(values = rev(colors)) +
+  theme_classic() +
+  labs(x = 'Fire Severity',
+       y = 'Functional Evenness (FEve)') +
+  theme(legend.position = 'NA')
+FD4 <- ggplot2::ggplot() +
+  geom_jitter(data = FD,
+              aes(x = severity, y = FDis, color = severity),
+              width = 0.15, size = 2) +
+  # geom_point(data = new_FD,
+  #            aes(x = severity, y = FDis, color = severity),
+  #            size = 5) +
+  scale_x_discrete(drop = FALSE,
+                   labels = xlabs) +
+  scale_color_manual(values = rev(colors)) +
+  theme_classic() +
+  labs(x = 'Fire Severity',
+       y = 'Functional Dispersion (FDis)') +
+  theme(legend.position = 'NA')
+
+grid.arrange(FD1, FD2, FD3, FD4, ncol=2)
+
+```
+
+
+###Phylogenetic diversity
+
+```{r}
+
+# Calculate weighted Faith's phylogenetic diversity (PD) for each site
+
+spp_matrix2 <- spp_matrix
+spp_matrix2$num_spp <- rowSums(spp_matrix2[2:12]!=0)
+spp_matrix2 <- spp_matrix2 %>% 
+  filter(num_spp != 1)
+sites <- spp_matrix2$X1
+spp_matrix2 <- spp_matrix2 %>% 
+  select(-X1, -num_spp)
+rownames(spp_matrix2) <- sites
+spp_tree <- c('Glaucomys_sabrinus',
+              'Neotoma_fuscipes',
+              'Peromyscus_boylii',
+              'Peromyscus_maniculatus',
+              'Peromyscus_truei',
+              'Reithrodontomys_megalotis',
+              'Sorex_trowbridgii',
+              'Otospermophilus_beecheyi',
+              'Neotamias_amoenus',
+              'Neotamias_quadrimaculatus',
+              'Neotamias_senex')
+colnames(spp_matrix2) <- spp_tree
+
+PD <- data.frame(weighted.faith(pruned, spp_matrix2)) %>%
+  mutate(site = rownames(.),
+         PD = weighted.faith.pruned..spp_matrix2.) %>% 
+  full_join(sevs) %>% 
+  select(site, severity, PD) %>% 
+  mutate(PD = replace_na(PD, 13.97496))
+
+# Calculate PD for fake data
+
+new_matrix <- data.frame(t(smammunity))
+spp_tree2 <- c('Peromyscus_truei', 
+               'Peromyscus_boylii',
+               'Peromyscus_maniculatus',
+               'Reithrodontomys_megalotis',
+               'Neotoma_fuscipes',
+               'Neotamias_amoenus',
+               'Neotamias_senex',
+               'Neotamias_quadrimaculatus',
+               'Otospermophilus_beecheyi',
+               'Glaucomys_sabrinus',
+               'Sorex_trowbridgii')
+
+colnames(new_matrix) <- spp_tree2
+
+new_PD_value <- tryCatch(
+  weighted.faith(pruned, new_matrix),
+  error = function(e) {print(''); 13.97496}
+)
+
+new_PD <- data.frame(PD = new_PD_value,
+                     severity = 'fake') %>% 
+  mutate(severity = factor(severity, levels = c('unb', 'mod', 'high', 'fake')))
+  
+  
+new_PD <- data.frame(PD = weighted.faith(pruned, new_matrix),
+                     severity = 'fake') %>% 
+  mutate(severity = factor(severity, levels = c('unb', 'mod', 'high', 'fake')))
+
+# Make a graph
+
+colors <- c('darkgreen', 'orange', 'red', 'purple')
+xlabs <- c('Unburned', 'Moderate\nSeverity', 'High\nSeverity', 'YOUR\nNEW\nCOMMUNITY')
+
+ggplot2::ggplot() +
+  geom_jitter(data = PD,
+              aes(x = severity, y = PD, color = severity),
+              width = 0.15, size = 2) +
+  geom_point(data = new_PD,
+             aes(x = severity, y = PD, color = severity),
+             size = 5) +
+  scale_x_discrete(drop = FALSE,
+                   labels = xlabs) +
+  scale_color_manual(values = rev(colors)) +
+  theme_classic() +
+  labs(x = 'Fire Severity',
+       y = 'Weighted Faith\'s Phylogenetic Diversity (PD)') +
+  theme(legend.position = 'NA')
+
+```
+
